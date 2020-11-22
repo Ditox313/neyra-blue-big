@@ -1,0 +1,10 @@
+/*Спецификации*/
+.clearfix:after {
+  content: " ";
+  display: table;
+  width: 100%;
+}
+/*------------------------------------------------------------------------*/
+body {
+  font-family: 'Abhaya Libre', serif;
+}
