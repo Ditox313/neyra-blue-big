@@ -8,3 +8,128 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+header {
+  min-height: 1104px;
+  background: url('../../img/header_bg.jpg') no-repeat center center / cover;
+  padding-top: 40px;
+}
+header nav {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Roboto', sans-serif;
+}
+header nav .header_logo {
+  width: 30%;
+}
+header nav .header_menu {
+  width: 70%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav .header_menu li {
+  float: left;
+  margin-right: 40px;
+  overflow: hidden;
+}
+header nav .header_menu li a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding-bottom: 3px;
+  transition: all 0.5s;
+}
+header nav .header_menu li a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s;
+  transform: translateX(-110%);
+}
+header nav .header_menu li a:hover {
+  text-decoration: none;
+}
+header nav .header_menu li a:hover::after {
+  transform: translateX(0%);
+}
+header .header_content {
+  margin-top: 100px;
+}
+header .header_content h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 40px;
+}
+header .header_content h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #fff;
+  width: 70%;
+}
+.header_btn_box {
+  margin-top: -265px;
+  margin-bottom: 140px;
+  display: flex;
+  align-items: center;
+}
+.header_btn_box .header_btn_box_text {
+  display: flex;
+  align-items: center;
+}
+.header_btn_box .header_btn_box_text p {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 40px;
+}
+.header_btn_box .header_btn_box_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+.header_btn_box .header_btn_box_btn a {
+  display: block;
+  border: 3px solid #0589D6;
+  padding: 15px 80px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 35px;
+  color: #004BA2;
+  position: relative;
+  overflow: hidden;
+}
+.header_btn_box .header_btn_box_btn a::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 137, 214, 0.1);
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  transform: translateX(-110%);
+  transition: 0.2s;
+}
+.header_btn_box .header_btn_box_btn a:hover {
+  text-decoration: none;
+}
+.header_btn_box .header_btn_box_btn a:hover::before {
+  transition: 0.2s;
+  transform: translateX(0%);
+}

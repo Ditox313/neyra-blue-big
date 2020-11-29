@@ -23,7 +23,174 @@ body
 
 
 // header
-// header{
-    
-// }
+header{
+	min-height: 1104px;
+	background: url('../../img/header_bg.jpg') no-repeat center center / cover;
+	padding-top: 40px;
+
+	nav
+	{
+		display: flex;
+		align-items: flex-end;
+		font-family: @fontRob;
+
+		.header_logo
+		{
+			width: 30%;
+		}
+
+		.header_menu
+	{
+		width: 70%;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li
+		{
+			float: left;
+			margin-right: 40px;
+			overflow: hidden;
+
+			a
+			{
+				color: #fff;
+				text-decoration: none;
+				position: relative;
+				display: block;
+				padding-bottom: 3px;
+				transition: all 0.5s;
+				
+
+				&::after
+				{
+					content: '';
+					display: block;
+					width: 100%;
+					height: 2px;
+					background-color: #fff;
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					transition: all 0.5s;
+					transform: translateX(-110%);
+				}
+
+				
+
+				&:hover 
+				{
+					text-decoration: none;
+				}
+
+				&:hover::after
+				{
+					transform: translateX(0%);
+				}
+			}
+		}
+	}
+	}
+
+	.header_content
+	{
+		margin-top: 100px;
+
+		h1
+		{
+			font-family: @fontOp;
+			font-size: 64px;
+			font-weight: 700;
+			color: #fff;
+			margin-bottom: 40px;
+		}
+
+		h4
+		{
+			font-family: @fontOp;
+			font-size: 24px;
+			font-weight: 600;
+			line-height: 30px;
+			color: #fff;
+			width: 70%;
+		}
+	}
+
+	
+}
+
+.header_btn_box
+{
+	margin-top: -265px;
+	margin-bottom: 140px;
+	display: flex;
+	align-items: center;
+
+	.header_btn_box_text
+	{
+		display: flex;
+		align-items: center;
+
+		p
+		{
+			width: 40%;
+			margin: 0;
+			padding: 0;
+			font-weight: 700;
+			font-size: 36px;
+			font-family: @fontOp;
+			margin-left: 40px;
+		}
+	}
+
+	.header_btn_box_btn
+	{
+		display: flex;
+		justify-content: center;
+		margin-top: 140px;
+
+		a
+		{
+			display: block;
+			border: 3px solid @layt_blue;
+			padding: 15px 80px;
+			border-radius: 30px;
+			font-family: @fontOp;
+			font-weight: 500;
+			font-size: 27px;
+			line-height: 35px;
+			color: @dark_blue;
+			position: relative;
+			overflow: hidden;
+
+			
+
+			&::before
+			{
+				content: '';
+				position: absolute;
+				display: block;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(5,137,214, 0.1);
+				top: 0;
+				left: 0;
+				border-radius: 30px;
+				transform: translateX(-110%);
+				transition: 0.2s;
+			}
+
+			&:hover
+			{
+				text-decoration: none;
+			}
+
+			&:hover::before
+			{
+				transition: 0.2s;
+				transform: translateX(0%);
+			}
+		}
+	}
+}
 // end header
