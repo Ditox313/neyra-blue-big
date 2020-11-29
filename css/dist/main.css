@@ -6,11 +6,5 @@
 }
 /*------------------------------------------------------------------------*/
 body {
-  font-family: 'Abhaya Libre', serif;
-}
-header {
-  min-height: 700px;
-}
-header nav {
-  display: flex;
+  font-family: 'Open Sans', sans-serif;
 }

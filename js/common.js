@@ -1,26 +1,17 @@
-$(document).ready(function() {https://clck.ru/F5MdE
-   $('.menu_but').click(function()
-   {
-   	$('.nav_menu_list').slideToggle(350,function()
-   		{
-   			if($(this).css('display')==='none')
-				{
-					$(this).removeAttr('style');
-				}
-   		});
-   })
-});
+// $(document).ready(function() {https://clck.ru/F5MdE
+//    $('.menu_but').click(function()
+//    {
+//    	$('.nav_menu_list').slideToggle(350,function()
+//    		{
+//    			if($(this).css('display')==='none')
+// 				{
+// 					$(this).removeAttr('style');
+// 				}
+//    		});
+//    })
+// });
 
 
-$(document).ready(function() {
-    $(".fancybox").fancybox({
-    	    "imageScale"            : false,
-            "zoomOpacity"			: true,
-            "overlayShow"			: false,
-            "zoomSpeedIn"			: 500,
-            "zoomSpeedOut"			: 500
-    });
-});
 
 
 $(function()
@@ -69,7 +60,7 @@ $(".link").on("click",function(e)
 
 		$("html,body").animate({
 			scrollTop: h.offset().top //мы скролим тег body на высоту h.offset(высоту получаем при клике на элемент меню).top
-		},500)
+		},500);
 	});
 
 
