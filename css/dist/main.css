@@ -309,6 +309,25 @@ header .header_content h4 {
   transition: all 0.3s;
   border: 3px solid #fff;
 }
+.block_6 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.block_6 .block_6_title {
+  text-align: center;
+}
+.block_6 .block_6_title span {
+  color: #0589D6;
+}
+.block_6 .block_6_title h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.block_6 .block_6_title .block_6_subtitle {
+  padding: 10px 250px;
+  font-size: 21px;
+  font-weight: 500;
+}
 @media screen and (max-width: 1500px) {
   .block_2 .review_slider .review_slider_item .review_slider_item__text .review_content {
     font-size: 23px;
@@ -340,6 +359,9 @@ header .header_content h4 {
   }
   header {
     min-height: 950px;
+  }
+  .block_6 .block_6_title .block_6_subtitle {
+    padding: 10px 140px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -426,6 +448,9 @@ header .header_content h4 {
   }
   .block_4 .block_4_content .block_4_item p {
     font-size: 16px;
+  }
+  .block_6 .block_6_title .block_6_subtitle {
+    padding: 10px 0px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -555,5 +580,11 @@ header .header_content h4 {
   }
   .block_3 {
     margin-top: 0;
+  }
+  .block_6 .block_6_title h2 {
+    font-size: 30px;
+  }
+  .block_6 .block_6_title .block_6_subtitle {
+    font-size: 17px;
   }
 }
