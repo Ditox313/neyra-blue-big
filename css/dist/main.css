@@ -334,9 +334,6 @@ header .header_content h4 {
   font-size: 21px;
   font-weight: 500;
 }
-.block_7 {
-  margin-bottom: 100px;
-}
 .block_7 .block_7_title {
   padding: 0 50px;
   margin-bottom: 50px;
@@ -348,6 +345,65 @@ header .header_content h4 {
 }
 .block_7 .block_7_content .block_7_content_item img {
   margin: 0 auto;
+}
+.block_8 {
+  padding: 100px 0;
+}
+.block_8 .block_8_title {
+  margin-bottom: 70px;
+}
+.block_8 .block_8_title h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+.block_8 .block_8_content .block_8_item {
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.25) !important;
+  -moz-box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.25) !important;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #fff;
+}
+.block_8 .block_8_content .block_8_item:hover {
+  transform: translateY(-30px);
+  transition: all 0.3s;
+}
+.block_8 .block_8_content .block_8_item .block_8_item_img img {
+  height: 250px;
+  border-radius: 10px;
+}
+.block_8 .block_8_content .block_8_item .block_8_item_title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.block_8 .block_8_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.block_8 .block_8_btn a {
+  display: block;
+  border: 3px solid #0589D6;
+  padding: 15px 80px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 35px;
+  color: #004BA2;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.block_8 .block_8_btn a:hover {
+  text-decoration: none;
+  background-color: #0589D6;
+  color: #fff;
+  transition: all 0.3s;
+  border: 3px solid #fff;
 }
 @media screen and (max-width: 1500px) {
   .block_2 .review_slider .review_slider_item .review_slider_item__text .review_content {
@@ -449,7 +505,7 @@ header .header_content h4 {
     background-size: cover !important;
   }
   .col_order {
-    order: 2 ;
+    order: 2;
   }
   .block_3 .block_3_item h2 {
     margin-top: 40px;
@@ -478,6 +534,9 @@ header .header_content h4 {
   }
   .block_7 .block_7_title h2 {
     font-size: 39px;
+  }
+  .block_8 .block_8_content .block_8_item {
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -554,6 +613,12 @@ header .header_content h4 {
   .block_6 {
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+  .block_8 .block_8_content .block_8_item {
+    padding: 10px;
+  }
+  .block_8 .block_8_btn a {
+    padding: 15px 40px;
   }
 }
 @media screen and (max-width: 460px) {
