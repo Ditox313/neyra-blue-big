@@ -96,3 +96,7 @@ window.onresize = function (event) {
     $('.order_mod').addClass("order-2");
   }
 };
+
+$('.block_5_btn').on('click', function () {
+  $('.block_5_up').slideToggle();
+});

@@ -32,6 +32,9 @@ body {
 .slick-dots li.slick-active > button::before {
   color: #0589D6 !important;
 }
+.block_5_up {
+  display: none;
+}
 header {
   min-height: 1104px;
   padding-top: 40px;
@@ -250,6 +253,62 @@ header .header_content h4 {
 .block_4 .block_4_content .block_4_item_wrap {
   margin-bottom: 0px;
 }
+.block_5 {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.block_5 .block_5_title {
+  margin-bottom: 50px;
+}
+.block_5 .block_5_title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.block_5 .block_5_list .block_5_item {
+  padding: 3px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
+  -moz-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
+  box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
+  border-radius: 10px;
+}
+.block_5 .block_5_list .block_5_item img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.block_5 .block_5_list .block_5_item p {
+  margin-bottom: 20px;
+  padding: 0px 15px;
+}
+.block_5 .block_5_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.block_5 .block_5_btn span {
+  display: block;
+  border: 3px solid #0589D6;
+  padding: 15px 80px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 35px;
+  color: #004BA2;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.block_5 .block_5_btn span:hover {
+  text-decoration: none;
+  background-color: #0589D6;
+  color: #fff;
+  transition: all 0.3s;
+  border: 3px solid #fff;
+}
 @media screen and (max-width: 1500px) {
   .block_2 .review_slider .review_slider_item .review_slider_item__text .review_content {
     font-size: 23px;
@@ -385,6 +444,10 @@ header .header_content h4 {
   .block_4 .block_4_content .block_4_item_wrap {
     margin-bottom: 50px;
   }
+  .block_5 .block_5_list .block_5_item {
+    text-align: center;
+    display: inline-block;
+  }
 }
 @media screen and (max-width: 576px) {
   header .header_content h1 {
@@ -421,6 +484,14 @@ header .header_content h4 {
   }
   .block_4 .block_4_content .block_4_item h3 {
     font-size: 23px;
+  }
+  .block_5 .block_5_title h2 {
+    font-size: 23px;
+  }
+  .block_5 .block_5_btn span {
+    display: block;
+    border: 3px solid #0589D6;
+    padding: 15px 30px;
   }
 }
 @media screen and (max-width: 460px) {
