@@ -80,6 +80,8 @@ $('.review_slider').slick({
 	slidesToShow: 3,
 	dots: true,
 	infinite: true,
+	autoplay: true,
+	autoplaySpeed: 2000,
 
 	responsive: [
 		
@@ -124,4 +126,39 @@ window.onresize = function(event) {
 
   $('.block_5_btn').on('click', function(){
 	$('.block_5_up').slideToggle();
+  });
+
+  $('.block_7_content').slick({
+	lazyLoad: 'ondemand',
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	// autoplay: true,
+	// autoplaySpeed: 2000,
+	  
+
+	  responsive: [
+		
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3
+			}
+		},
+
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2
+			}
+		},
+
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1
+			}
+		},
+		
+		
+	]
   });
