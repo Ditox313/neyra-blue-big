@@ -89,4 +89,10 @@ $('.review_slider').slick({
       slidesToShow: 1
     }
   }]
-});
+}); // Мой код
+
+window.onresize = function (event) {
+  if (window.innerWidth <= 768) {
+    $('.order_mod').addClass("order-2");
+  }
+};

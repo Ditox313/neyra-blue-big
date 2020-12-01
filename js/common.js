@@ -110,3 +110,13 @@ $('.review_slider').slick({
 		
 	]
 });
+
+
+
+// Мой код
+
+window.onresize = function(event) {
+	if(window.innerWidth <= 768) {
+	  $('.order_mod').addClass("order-2");
+	}
+  };
