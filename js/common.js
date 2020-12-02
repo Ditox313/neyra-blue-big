@@ -128,6 +128,7 @@ window.onresize = function(event) {
 	$('.block_5_up').slideToggle();
   });
 
+
   $('.block_7_content').slick({
 	lazyLoad: 'ondemand',
 	slidesToShow: 4,
@@ -162,6 +163,46 @@ window.onresize = function(event) {
 		
 	]
   });
+
+
+
+
+  $('.block_8_content').slick({
+	centerMode: true,
+	centerPadding: '0px',
+	slidesToShow: 3,
+	dots: true,
+	responsive: [
+	  {
+		breakpoint: 992,
+		settings: {
+		  arrows: false,
+		  centerMode: true,
+		  centerPadding: '40px',
+		  slidesToShow: 2
+		}
+	  },
+
+	  {
+		breakpoint: 768,
+		settings: {
+		  arrows: false,
+		  centerMode: true,
+		  centerPadding: '40px',
+		  slidesToShow: 1
+		}
+	  },
+	  
+	]
+  });
+
+
+
+  
+  
+  
+
+
 
 
 

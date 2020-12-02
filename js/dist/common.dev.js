@@ -124,6 +124,29 @@ $('.block_7_content').slick({
       slidesToShow: 1
     }
   }]
+});
+$('.block_8_content').slick({
+  centerMode: true,
+  centerPadding: '0px',
+  slidesToShow: 3,
+  dots: true,
+  responsive: [{
+    breakpoint: 992,
+    settings: {
+      arrows: false,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 2
+    }
+  }, {
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 1
+    }
+  }]
 }); // Cursor
 
 document.addEventListener('DOMContentLoaded', function () {
