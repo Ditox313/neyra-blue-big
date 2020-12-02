@@ -47,6 +47,9 @@ body {
   left: 50px;
   cursor: pointer;
 }
+body {
+  cursor: none;
+}
 header {
   min-height: 1104px;
   padding-top: 40px;
@@ -178,18 +181,6 @@ header .header_content h4 {
   color: #fff;
   transition: all 0.3s;
   border: 3px solid #fff;
-}
-.header_btn_box .header_btn_box_btn a::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transition: all 0.5s;
-  transform: translateX(-110%);
 }
 .header_btn_box .header_btn_box_btn a:hover {
   text-decoration: none;
@@ -515,6 +506,57 @@ footer .footer_content .footer_item_second {
   height: 100%;
   flex-direction: column;
   justify-content: flex-end;
+}
+#cursor,
+#aura {
+  position: absolute;
+  border-radius: 100%;
+  -webkit-transition: 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  transition: 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -o-transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+}
+#cursor {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(0, 75, 162, 0.5);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+#cursor.active {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+#aura {
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(0, 75, 162, 0.2);
+  background-color: rgba(0, 75, 162, 0.027);
+  -webkit-transform: translate(5px, 5px);
+  -ms-transform: translate(5px, 5px);
+  transform: translate(5px, 5px);
+}
+#aura.active {
+  border: 1.2px solid rgba(255, 255, 255, 0.33);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+#aura.hidden,
+#cursor.hidden {
+  -webkit-transform: scale(0.001);
+  -ms-transform: scale(0.001);
+  transform: scale(0.001);
 }
 @media screen and (max-width: 1500px) {
   .block_2 .review_slider .review_slider_item .review_slider_item__text .review_content {

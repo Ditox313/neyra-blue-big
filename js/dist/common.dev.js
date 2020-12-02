@@ -124,4 +124,79 @@ $('.block_7_content').slick({
       slidesToShow: 1
     }
   }]
+}); // Cursor
+
+document.addEventListener('DOMContentLoaded', function () {
+  var body = document.querySelector('body'); // After update OptimizedHTML5
+
+  var cx, cy, mouseX, mouseY, posX, posY, clientX, clientY, dx, dy, tiltx, tilty, request, radius, degree;
+  cx = window.innerWidth / 2;
+  cy = window.innerHeight / 2;
+  body.addEventListener('mousemove', function (e) {
+    clientX = e.pageX;
+    clientY = e.pageY;
+    request = requestAnimationFrame(updateMe);
+    mouseCoords(e);
+    cursor.classList.remove('hidden');
+    follower.classList.remove('hidden');
+  });
+
+  function updateMe() {
+    dx = clientX - cx;
+    dy = clientY - cy;
+    tiltx = dy / cy;
+    tilty = dx / cx;
+    radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2));
+    degree = radius * 14;
+    gsap.to('h1, h4', 1, {
+      transform: "rotate3d( ".concat(tiltx, ", ").concat(tilty, ", 0, ").concat(degree, "deg )")
+    });
+  } // gsap.to('h1', { zoom: .98 })
+
+
+  var cursor = document.getElementById('cursor'),
+      follower = document.getElementById('aura'),
+      links = document.getElementsByTagName('a');
+  mouseX = 0, mouseY = 0, posX = 0, posY = 0;
+
+  function mouseCoords(e) {
+    mouseX = e.pageX;
+    mouseY = e.pageY;
+  }
+
+  gsap.to({}, .01, {
+    repeat: -1,
+    onRepeat: function onRepeat() {
+      posX += (mouseX - posX) / 5;
+      posY += (mouseY - posY) / 5;
+      gsap.set(cursor, {
+        css: {
+          left: mouseX,
+          top: mouseY
+        }
+      });
+      gsap.set(follower, {
+        css: {
+          left: posX - 24,
+          top: posY - 24
+        }
+      });
+    }
+  });
+
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('mouseover', function () {
+      cursor.classList.add('active');
+      follower.classList.add('active');
+    });
+    links[i].addEventListener('mouseout', function () {
+      cursor.classList.remove('active');
+      follower.classList.remove('active');
+    });
+  }
+
+  body.addEventListener('mouseout', function () {
+    cursor.classList.add('hidden');
+    follower.classList.add('hidden');
+  });
 });
