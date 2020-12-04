@@ -1031,6 +1031,9 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   .neyra_market_block_2 {
     margin-top: 0;
   }
+  .order_mod {
+    order: 2;
+  }
 }
 @media screen and (max-width: 576px) {
   header .header_content h1 {
