@@ -54,12 +54,14 @@ $(".fa-bars-click").on('click', function () {
   $(".fa-bars-click").css('display', 'none');
   $('header .header_content h1').css('display', 'none');
   $('header .header_content h4').css('display', 'none');
+  $('.header_neyra_market_btn').css('display', 'none');
 });
 $(".fa-times-mod").on('click', function () {
   $('.fa-times-mod').css('display', 'none');
   $(".fa-bars-click").css('display', 'block');
   $('header .header_content h1').css('display', 'block');
   $('header .header_content h4').css('display', 'block');
+  $('.header_neyra_market_btn').css('display', 'block');
 });
 $('.review_slider').slick({
   centerMode: true,
@@ -171,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
     tilty = dx / cx;
     radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2));
     degree = radius * 14;
-    gsap.to('h1, h4', 1, {
+    gsap.to('.header_home h1, .header_home h4', 1, {
       transform: "rotate3d( ".concat(tiltx, ", ").concat(tilty, ", 0, ").concat(degree, "deg )")
     });
   } // gsap.to('h1', { zoom: .98 })

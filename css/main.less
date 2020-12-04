@@ -10,11 +10,12 @@
 	width: 100%;
 }
 
-/*------------------------------------------------------------------------*/
+
 
 
 body {
 	font-family: @fontOp;
+	cursor: none;
 }
 
 .fa-times-mod {
@@ -71,11 +72,8 @@ body {
 	cursor: pointer;
 }
 
-body {
-	cursor: none;
-}
 
-
+/*------------------------------------------------------------------------*/
 
 
 
@@ -105,10 +103,11 @@ header {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
+			text-align: right;
 
 			li {
 				float: left;
-				margin-right: 40px;
+				margin-left: 43px;
 				overflow: hidden;
 
 				a {
@@ -118,6 +117,7 @@ header {
 					display: block;
 					padding-bottom: 3px;
 					transition: all 0.5s;
+					overflow: hidden;
 
 
 
@@ -161,6 +161,8 @@ header {
 					}
 				}
 			}
+
+
 		}
 
 		.mobile_but {
@@ -201,7 +203,7 @@ header {
 }
 
 .header_btn_box {
-	margin-top: -265px;
+	margin-top: -300px;
 	margin-bottom: 60px;
 	display: flex;
 	align-items: center;
@@ -220,8 +222,7 @@ header {
 			margin-left: 40px;
 		}
 
-		img
-		{
+		img {
 			transform: scale(0.9);
 		}
 	}
@@ -529,8 +530,7 @@ header {
 		}
 	}
 
-	.block_6_btn
-	{
+	.block_6_btn {
 		display: flex;
 		justify-content: center;
 		margin-top: 75px;
@@ -627,7 +627,7 @@ header {
 		.block_slide {
 			transition: all 0.5s;
 			transform: scale(0.7);
-			
+
 
 			.block_8_slider_item {
 				position: relative;
@@ -655,7 +655,7 @@ header {
 					z-index: -1;
 				}
 
-				
+
 
 
 				.block_8_slider_item_title {
@@ -670,27 +670,24 @@ header {
 				}
 			}
 
-			
+
 		}
 
-		.slick-current
-		{
-			.block_slide
-			{
+		.slick-current {
+			.block_slide {
 				transform: scale(1.1);
 				position: relative;
 				z-index: 99999;
 
-				h2
-				{
+				h2 {
 					opacity: 1 !important;
 				}
 			}
 		}
 
-		
 
-		
+
+
 
 	}
 
@@ -729,8 +726,7 @@ header {
 	}
 
 
-	.slick-slider .slick-track
-	{
+	.slick-slider .slick-track {
 		padding-top: 50px;
 	}
 }
@@ -851,6 +847,120 @@ footer {
 }
 
 // end footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -----------------------------------------------neyra-market-----------------------------------------------------------
+
+
+header.header_neyra_market {
+
+	li
+		{
+			a
+			{
+				overflow: hidden;
+			}
+			
+		}
+
+	.header_content {
+		h1 {
+			font-size: 48px;
+		}
+
+		h4 {
+			width: 100%;
+		}
+
+		.header_neyra_market_btn {
+			margin-top: 50px;
+
+			a {
+				display: inline-block;
+				border: 3px solid #fff;
+				padding: 8px 50px;
+				font-size: 22px;
+				border-radius: 30px;
+				font-family: @fontOp;
+				font-weight: 500;
+				line-height: 35px;
+				color: #fff;
+				position: relative;
+				overflow: hidden;
+				transition: all 0.3s;
+
+
+				&:hover {
+					text-decoration: none;
+					background-color: #fff;
+					color: #0589D6;
+					transition: all 0.3s;
+					border: 3px solid #0589D6;
+				}
+
+
+
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				&:hover::after {
+					transform: translateX(0%);
+				}
+			}
+		}
+
+		
+
+	}
+}
+
+.header_neyra_market_btn_box {
+	height: 1px;
+
+	.header_btn_box_text {
+		display: flex;
+		justify-content: flex-end;
+
+		h3 {
+			font-size: 32px;
+			font-weight: 700;
+			width: 45%;
+			position: relative;
+			top: -230px;
+		}
+	}
+
+
+
+}
+
+
+// -----------------------------------------------neyra-market----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1046,19 +1156,36 @@ footer {
 		font-size: 21px;
 	}
 
-	.block_8 .block_8_btn a
-	{
+	.block_8 .block_8_btn a {
 		padding: 9px 25px;
 		font-size: 21px;
 	}
 
-	.block_6 .block_6_btn a
-	{
+	.block_6 .block_6_btn a {
 		padding: 9px 25px;
 		font-size: 21px;
 	}
 
-	
+
+	header nav .header_menu li {
+		margin-left: 0px;
+		margin-right: 20px;
+	}
+
+	header.header_neyra_market .header_content h1
+	{
+		font-size: 40px;
+	}
+
+	.header_neyra_market_btn_box .header_btn_box_text h3
+	{
+		font-size: 28px;
+		width: 50%;
+	}
+
+
+
+
 }
 
 @media screen and(max-width: 992px) {
@@ -1233,8 +1360,7 @@ footer {
 		z-index: 99999;
 	}
 
-	.block_8 .block_8_content .block_slide .block_8_slider_item .block_8_slider_item_title h2
-	{
+	.block_8 .block_8_content .block_slide .block_8_slider_item .block_8_slider_item_title h2 {
 		opacity: 1;
 	}
 
@@ -1249,19 +1375,22 @@ footer {
 		font-size: 20px;
 	}
 
-	.block_8 .block_8_btn a
-	{
+	.block_8 .block_8_btn a {
 		padding: 9px 22px;
 		font-size: 20px;
 	}
 
-	.block_6 .block_6_btn a
-	{
+	.block_6 .block_6_btn a {
 		padding: 9px 22px;
 		font-size: 20px;
 	}
 
-	
+	header.header_neyra_market .header_content h1
+	{
+		font-size: 48px;
+	}
+
+
 
 
 
@@ -1307,8 +1436,7 @@ footer {
 		z-index: 99999;
 	}
 
-	.block_8
-	{
+	.block_8 {
 		background: none !important;
 	}
 
@@ -1323,16 +1451,23 @@ footer {
 		font-size: 19px;
 	}
 
-	.block_8 .block_8_btn a
-	{
+	.block_8 .block_8_btn a {
 		padding: 7px 19px;
 		font-size: 19px;
 	}
 
-	.block_6 .block_6_btn a
-	{
+	.block_6 .block_6_btn a {
 		padding: 7px 19px;
 		font-size: 19px;
+	}
+
+	header.header_neyra_market .header_content h1 {
+		font-size: 38px;
+	}
+
+	.header_neyra_market_btn_box .header_btn_box_text h3 {
+		font-size: 25px;
+		width: 50%;
 	}
 
 
@@ -1450,17 +1585,55 @@ footer {
 		font-size: 18px;
 	}
 
-	.block_8 .block_8_btn a
-	{
+	.block_8 .block_8_btn a {
 		padding: 7px 17px;
 		font-size: 18px;
 	}
 
-	.block_6 .block_6_btn a
-	{
+	.block_6 .block_6_btn a {
 		padding: 7px 17px;
 		font-size: 18px;
 	}
+
+	header.header_neyra_market .header_content h1 {
+		font-size: 24px;
+		margin-bottom: 28px;
+	}
+
+	header.header_neyra_market .header_content h4 {
+		font-size: 17px;
+	}
+
+	header.header_neyra_market .header_content {
+		margin-top: 47px;
+	}
+
+	header.header_neyra_market .header_content .header_neyra_market_btn {
+		margin-top: 22px;
+	}
+
+	.header_neyra_market_btn_box .header_btn_box_text h3 {
+		font-size: 25px;
+		width: 100%;
+		top: -83px;
+		text-align: center;
+	}
+
+	header.header_neyra_market .header_content .header_neyra_market_btn a
+	{
+		padding: 6px 40px;
+	}
+
+	header.header_neyra_market .header_content .header_neyra_market_btn
+	{
+		text-align: center;
+	}
+
+	
+
+	
+
+	
 
 }
 
@@ -1483,7 +1656,7 @@ footer {
 		font-size: 25px;
 	}
 
-	
+
 
 	header .header_content h4 {
 		font-size: 21px;
@@ -1575,16 +1748,14 @@ footer {
 		text-align: center;
 	}
 
-	.block_8 .block_8_btn a
-	{
+	.block_8 .block_8_btn a {
 		padding: 7px 17px;
 		font-size: 18px;
 		width: 100%;
 		text-align: center;
 	}
 
-	.block_6 .block_6_btn a
-	{
+	.block_6 .block_6_btn a {
 		padding: 7px 17px;
 		font-size: 18px;
 		width: 100%;
