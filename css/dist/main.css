@@ -654,6 +654,32 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   font-size: 18px;
   font-weight: 400;
 }
+.neyra_market_block_2 .neyra_market_block_2_btn {
+  display: flex;
+  justify-content: center;
+}
+.neyra_market_block_2 .neyra_market_block_2_btn a {
+  margin-top: 30px;
+  display: inline-block;
+  border: 3px solid #0589D6;
+  padding: 8px 30px;
+  font-size: 24px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+  color: #004BA2;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.neyra_market_block_2 .neyra_market_block_2_btn a:hover {
+  text-decoration: none;
+  background-color: #0589D6;
+  color: #fff;
+  transition: all 0.3s;
+  border: 3px solid #fff;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1290,6 +1316,9 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   }
   .block_8 .block_8_content .slick-current .block_slide .block_slide_text {
     height: 140px;
+  }
+  .neyra_market_block_2 .neyra_market_block_2_btn a {
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 360px) {
