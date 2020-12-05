@@ -680,6 +680,17 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   transition: all 0.3s;
   border: 3px solid #fff;
 }
+header.partners_header {
+  min-height: 900px;
+}
+.header_partners_btn_box {
+  margin-top: -210px;
+}
+.header_partners_btn_box .header_btn_box_text p {
+  margin: 0;
+  font-size: 37px;
+  width: 100%;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -733,55 +744,6 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
 }
 .but_up {
   animation: slideUp;
-}
-.slideUp {
-  animation-name: slideUp;
-  -webkit-animation-name: slideUp;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  animation-timing-function: ease;
-  -webkit-animation-timing-function: ease;
-  visibility: visible !important;
-}
-@keyframes slideUp {
-  0% {
-    transform: translateY(100%);
-  }
-  50% {
-    transform: translateY(-8%);
-  }
-  65% {
-    transform: translateY(4%);
-  }
-  80% {
-    transform: translateY(-4%);
-  }
-  95% {
-    transform: translateY(2%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-@-webkit-keyframes slideUp {
-  0% {
-    -webkit-transform: translateY(100%);
-  }
-  50% {
-    -webkit-transform: translateY(-8%);
-  }
-  65% {
-    -webkit-transform: translateY(4%);
-  }
-  80% {
-    -webkit-transform: translateY(-4%);
-  }
-  95% {
-    -webkit-transform: translateY(2%);
-  }
-  100% {
-    -webkit-transform: translateY(0%);
-  }
 }
 @media screen and (max-width: 1500px) {
   .block_2 .review_slider .review_slider_item .review_slider_item__text .review_content {
@@ -895,8 +857,11 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
     font-size: 16px;
     font-weight: 400;
   }
+  header.partners_header {
+    min-height: 820px;
+  }
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 998px) {
   header nav .header_menu {
     display: none;
   }
@@ -1043,8 +1008,11 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   header.header_neyra_market .header_content h1 {
     font-size: 42px;
   }
+  header.partners_header {
+    min-height: 820px;
+  }
 }
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   header {
     min-height: 950px;
   }
@@ -1111,6 +1079,12 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   }
   .order_mod {
     order: 2;
+  }
+  header .header_content h1 {
+    font-size: 48px;
+  }
+  header.partners_header {
+    min-height: 780px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1243,6 +1217,9 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   .block_8 .block_8_content .block_slide .block_8_slider_item .block_slide_text p {
     height: 150px !important;
   }
+  header.partners_header {
+    min-height: 680px;
+  }
 }
 @media screen and (max-width: 460px) {
   header .header_content h1 {
@@ -1371,6 +1348,15 @@ header.header_neyra_market .header_content .header_neyra_market_btn a:hover::aft
   }
   .neyra_market_block_2 .neyra_market_block_2_btn a {
     font-size: 19px;
+  }
+  header.partners_header {
+    min-height: 620px;
+  }
+  .header_partners_btn_box .header_btn_box_text p {
+    font-size: 27px;
+  }
+  .header_partners_btn_box {
+    margin-top: -100px;
   }
 }
 @media screen and (max-width: 360px) {
