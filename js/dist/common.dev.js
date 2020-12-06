@@ -104,6 +104,14 @@ window.onresize = function (event) {
 $('.block_5_btn').on('click', function () {
   $('.block_5_up').slideToggle();
 });
+$('.fa-angle-double-down').on('click', function () {
+  $('.fa-angle-double-down').css('display', 'none');
+  $('.fa-angle-double-up').css('display', 'block');
+});
+$('.fa-angle-double-up').on('click', function () {
+  $('.fa-angle-double-up').css('display', 'none');
+  $('.fa-angle-double-down').css('display', 'block');
+});
 $('.block_7_content').slick({
   lazyLoad: 'ondemand',
   slidesToShow: 4,
