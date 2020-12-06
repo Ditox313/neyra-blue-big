@@ -655,7 +655,7 @@ header {
 					z-index: -1;
 				}
 
-				
+
 
 
 
@@ -869,14 +869,12 @@ footer {
 
 header.header_neyra_market {
 
-	li
-		{
-			a
-			{
-				overflow: hidden;
-			}
-			
+	li {
+		a {
+			overflow: hidden;
 		}
+
+	}
 
 	.header_content {
 		h1 {
@@ -927,7 +925,7 @@ header.header_neyra_market {
 			}
 		}
 
-		
+
 
 	}
 }
@@ -954,52 +952,45 @@ header.header_neyra_market {
 
 
 
-.neyra_market_block_2
-{
+.neyra_market_block_2 {
 	margin-top: -50px;
 
-	.neyra_market_block_2_content
-	{
-		
+	.neyra_market_block_2_content {
 
-		.neyra_market_block_2_content_item
-			{
-				a
-				{
-					width: 100%;
-					display: block;
-					height: 455px;
-					padding: 30px;
-					-webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
-					-moz-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
-					box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
-					border-radius: 10px;
-					text-align: center;
-					margin-bottom: 30px;
-					text-decoration: none;
-					color: inherit;
+
+		.neyra_market_block_2_content_item {
+			a {
+				width: 100%;
+				display: block;
+				height: 455px;
+				padding: 30px;
+				-webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
+				-moz-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
+				box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.55);
+				border-radius: 10px;
+				text-align: center;
+				margin-bottom: 30px;
+				text-decoration: none;
+				color: inherit;
+				transition: all 0.3s;
+				background-color: #fff;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-between;
+
+				&:hover {
 					transition: all 0.3s;
-					background-color: #fff;
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					justify-content: space-between;
+					transform: translateY(-10px);
+				}
 
-					&:hover
-					{
-						transition: all 0.3s;
-						transform: translateY(-10px);
-					}
-
-				h3
-				{
+				h3 {
 					font-size: 24px;
 					font-weight: 700;
 					margin-bottom: 20px;
 				}
 
-				p
-				{
+				p {
 					font-size: 18px;
 					font-weight: 400;
 				}
@@ -1007,10 +998,10 @@ header.header_neyra_market {
 		}
 	}
 
-	.neyra_market_block_2_btn
-	{
+	.neyra_market_block_2_btn {
 		display: flex;
 		justify-content: center;
+
 		a {
 			margin-top: 30px;
 			display: inline-block;
@@ -1050,22 +1041,80 @@ header.header_neyra_market {
 
 
 
-header.partners_header
-{
+header.partners_header {
 	min-height: 900px;
 }
 
-.header_partners_btn_box
-{
+.header_partners_btn_box {
 	margin-top: -210px;
 
-	.header_btn_box_text
-	{
-		p
-		{
+	.header_btn_box_text {
+		p {
 			margin: 0;
-			font-size: 37px;
+			font-size: 40px;
 			width: 100%;
+		}
+	}
+}
+
+
+.partners_block_2 {
+	margin-top: 120px;
+
+	.partners_block_2_list {
+		.partners_block_2_item {
+			text-align: center;
+			margin-bottom: 100px;
+			height: 531px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+
+			h4 {
+				font-size: 35px;
+				font-weight: 700;
+				width: 75%;
+			}
+
+		
+
+			a {
+				display: inline-block;
+				border: 3px solid #111;
+				padding: 5px 25px;
+				font-size: 22px;
+				border-radius: 30px;
+				font-family: @fontOp;
+				font-weight: 500;
+				line-height: 35px;
+				color: #111;
+				position: relative;
+				overflow: hidden;
+				transition: all 0.3s;
+				margin-top: 20px;
+				font-weight: 500;
+
+
+				&:hover {
+					text-decoration: none;
+					background-color: #0589D6;
+					color: #fff;
+					transition: all 0.3s;
+					border: 3px solid #fff;
+				}
+
+
+
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				&:hover::after {
+					transform: translateX(0%);
+				}
+			}
 		}
 	}
 }
@@ -1165,7 +1214,7 @@ header.partners_header
 
 
 
-.but_up{
+.but_up {
 	animation: slideUp;
 }
 
@@ -1323,13 +1372,11 @@ header.partners_header
 		margin-right: 20px;
 	}
 
-	header.header_neyra_market .header_content h1
-	{
+	header.header_neyra_market .header_content h1 {
 		font-size: 40px;
 	}
 
-	.header_neyra_market_btn_box .header_btn_box_text h3
-	{
+	.header_neyra_market_btn_box .header_btn_box_text h3 {
 		font-size: 28px;
 		width: 50%;
 	}
@@ -1341,9 +1388,13 @@ header.partners_header
 	}
 
 
-	header.partners_header
-	{
+	header.partners_header {
 		min-height: 820px;
+	}
+
+
+	.header_partners_btn_box .header_btn_box_text p {
+		font-size: 38px;
 	}
 
 
@@ -1548,18 +1599,36 @@ header.partners_header
 		font-size: 20px;
 	}
 
-	header.header_neyra_market .header_content h1
-	{
+	header.header_neyra_market .header_content h1 {
 		font-size: 42px;
 	}
 
 
-	header.partners_header
-	{
+	header.partners_header {
 		min-height: 820px;
 	}
 
-	
+	.header_partners_btn_box .header_btn_box_text p {
+		 width: 100%; 
+	}
+
+	.header_partners_btn_box {
+		margin-top: -150px;
+	}
+
+
+	.partners_block_2 .partners_block_2_list .partners_block_2_item
+	{
+		height: 561px;
+	}
+
+	.partners_block_2 .partners_block_2_list .partners_block_2_item h4 {
+		font-size: 31px;
+		font-weight: 700;
+		width: 80%;
+	}
+
+
 
 
 
@@ -1643,23 +1712,19 @@ header.partners_header
 	}
 
 
-	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a p
-	{
+	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a p {
 		font-size: 21px;
 	}
 
-	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a h3
-	{
+	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a h3 {
 		font-size: 31px;
 	}
 
-	.neyra_market_block_2
-	{
+	.neyra_market_block_2 {
 		margin-top: 0;
 	}
 
-	.order_mod
-	{
+	.order_mod {
 		order: 2;
 	}
 
@@ -1668,12 +1733,15 @@ header.partners_header
 	}
 
 
-	header.partners_header
-	{
+	header.partners_header {
 		min-height: 780px;
 	}
 
-	
+	.header_partners_btn_box .header_btn_box_text p {
+		width: 100%;
+	}
+
+
 
 
 }
@@ -1825,18 +1893,15 @@ header.partners_header
 		margin-bottom: 30px;
 	}
 
-	header.header_neyra_market .header_content .header_neyra_market_btn a
-	{
+	header.header_neyra_market .header_content .header_neyra_market_btn a {
 		padding: 6px 40px;
 	}
 
-	header.header_neyra_market .header_content .header_neyra_market_btn
-	{
+	header.header_neyra_market .header_content .header_neyra_market_btn {
 		text-align: center;
 	}
 
-	.neyra_market_block_2_content
-	{
+	.neyra_market_block_2_content {
 		margin-top: 40px;
 	}
 
@@ -1844,22 +1909,36 @@ header.partners_header
 		margin-top: 80px;
 	}
 
-	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a p
-	{
+	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a p {
 		font-size: 19px;
 	}
 
 
-	.block_8 .block_8_content .block_slide .block_8_slider_item .block_slide_text p
-	{
+	.block_8 .block_8_content .block_slide .block_8_slider_item .block_slide_text p {
 
 		height: 150px !important;
 	}
 
 
-	header.partners_header
-	{
+	header.partners_header {
 		min-height: 680px;
+	}
+
+
+	.header_partners_btn_box .header_btn_box_text p
+	{
+		font-size: 38px;
+	}
+
+
+	.partners_block_2 {
+		margin-top: 80px;
+	}
+
+
+	.partners_block_2 .partners_block_2_list .partners_block_2_item h4
+	{
+		font-size: 33px;
 	}
 
 }
@@ -1989,18 +2068,15 @@ header.partners_header
 		text-align: center;
 	}
 
-	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a
-	{
+	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a {
 		padding: 20px;
 	}
 
-	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a h3
-	{
+	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a h3 {
 		font-size: 27px;
 	}
 
-	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a p
-	{
+	.neyra_market_block_2 .neyra_market_block_2_content .neyra_market_block_2_content_item a p {
 		font-size: 16px;
 	}
 
@@ -2008,13 +2084,11 @@ header.partners_header
 		top: -95px;
 	}
 
-	header.header_neyra_market .header_content h1
-	{
+	header.header_neyra_market .header_content h1 {
 		font-size: 25px;
 	}
 
-	header.header_neyra_market .header_content h4
-	{
+	header.header_neyra_market .header_content h4 {
 		font-size: 16px;
 	}
 
@@ -2026,13 +2100,11 @@ header.partners_header
 		margin-bottom: 40px;
 	}
 
-	.block_8 .block_8_content .slick-current .block_slide
-	{
+	.block_8 .block_8_content .slick-current .block_slide {
 		padding: 20px;
 	}
 
-	.block_8 .block_8_content .slick-current .block_slide .block_slide_text
-	{
+	.block_8 .block_8_content .slick-current .block_slide .block_slide_text {
 		height: 140px;
 	}
 
@@ -2040,8 +2112,7 @@ header.partners_header
 		font-size: 19px;
 	}
 
-	header.partners_header
-	{
+	header.partners_header {
 		min-height: 620px;
 	}
 
@@ -2049,17 +2120,32 @@ header.partners_header
 		font-size: 27px;
 	}
 
-	.header_partners_btn_box
-	{
+	.header_partners_btn_box {
 		margin-top: -100px;
+	}
+
+
+	.header_partners_btn_box .header_btn_box_text p {
+		font-size: 35px;
+	}
+
+	.partners_block_2 .partners_block_2_list .partners_block_2_item h4 {
+		font-size: 31px;
+	}
+
+	.header_partners_btn_box .header_btn_box_text p {
+		font-size: 26px;
+	}
+
+	.partners_block_2 .partners_block_2_list .partners_block_2_item h4 {
+		font-size: 25px;
 	}
 
 
 }
 
 @media screen and(max-width: 360px) {
-	.block_8 .block_8_content .slick-current .block_slide
-	{
+	.block_8 .block_8_content .slick-current .block_slide {
 		padding: 0px;
 	}
 }
