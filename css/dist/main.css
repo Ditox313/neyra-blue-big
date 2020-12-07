@@ -797,6 +797,50 @@ header.partners_header {
   margin-top: -5px;
   border-radius: 50%;
 }
+.partner_biznes_block_3 {
+  margin-top: 100px;
+}
+.partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_item h4 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_item p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_btn {
+  display: flex;
+  justify-content: center;
+}
+.partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_btn a {
+  display: inline-block;
+  border: 3px solid #111;
+  padding: 5px 40px;
+  font-size: 22px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 35px;
+  color: #111;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_btn a:hover {
+  text-decoration: none;
+  background-color: #0589D6;
+  color: #fff;
+  transition: all 0.3s;
+  border: 3px solid #fff;
+}
+.partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_btn a:hover {
+  text-decoration: none;
+}
+.partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_btn a:hover::after {
+  transform: translateX(0%);
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1248,6 +1292,9 @@ header.partners_header {
   .header_biznes_partner_btn_box {
     background-position: -300px -100px !important;
   }
+  .partner_biznes_block_3_item {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 576px) {
   header .header_content h1 {
@@ -1581,6 +1628,15 @@ header.partners_header {
   }
   .header_biznes_partner_btn_box .header_biznes_partner_btn_box__list .header_biznes_partner_btn_box__item ul li {
     font-size: 16px;
+  }
+  .partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_item h4 {
+    font-size: 26px;
+  }
+  .partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_item p {
+    font-size: 16px;
+  }
+  .partner_biznes_block_3 .partner_biznes_block_3_list .partner_biznes_block_3_btn a {
+    padding: 5px 30px;
   }
 }
 @media screen and (max-width: 360px) {
