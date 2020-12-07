@@ -232,10 +232,9 @@ document.addEventListener('DOMContentLoaded', function () {
     cursor.classList.add('hidden');
     follower.classList.add('hidden');
   });
-});
-gsap.to('.but_up', 2, {
-  bottom: "100px",
-  repeat: -1,
-  yoyo: true,
-  ease: "circ.out"
-});
+}); // gsap.to('.but_up', 2,  {
+// 	bottom:"100px",
+// 	repeat:-1, 
+// 	yoyo:true,
+// 	ease: "circ.out"
+// });
