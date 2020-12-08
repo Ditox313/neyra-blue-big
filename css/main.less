@@ -1228,7 +1228,7 @@ header.partners_header {
 	margin-top: 100px;
 	min-height: 1600px;
 	position: relative;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 
 	.partner_biznes_block_3_list {
 		.partner_biznes_block_3_item {
@@ -1410,10 +1410,30 @@ header.partners_header {
 }
 
 
-// .partner_biznes_block_4
-// {
-// 	min-height: 1800px;
-// }
+
+
+
+.partner_biznes_block_4
+{
+	position: relative;
+	margin-top: -70px;
+	margin-bottom: 100px;
+
+	.partner_biznes_block_4_list
+	{
+		display: flex;
+		align-items: center;
+
+		h4
+		{
+			width: 60%;
+			font-size: 24px;
+			font-weight: 600;
+			margin-left: 20px;
+		}
+
+	}
+}
 
 
 
@@ -1726,6 +1746,14 @@ header.partners_header {
 	.partner_biznes_block_3 .partner_biznes_block_3_title
 	{
 		margin-top: 150px;
+	}
+
+
+	.partner_biznes_block_4 .partner_biznes_block_4_list h4 {
+		width: 49%;
+		font-size: 21px;
+		font-weight: 600;
+		margin-left: 20px;
 	}
 
 
@@ -2049,6 +2077,14 @@ header.partners_header {
 	}
 
 
+	.partner_biznes_block_4 .partner_biznes_block_4_list h4 {
+		width: 60%;
+		font-size: 21px;
+		font-weight: 600;
+		margin-left: 20px;
+	}
+
+
 
 
 
@@ -2068,6 +2104,13 @@ header.partners_header {
 	.partner_biznes_block_3_box
 	{
 		text-align: center;
+	}
+
+	.partner_biznes_block_4 .partner_biznes_block_4_list h4 {
+		width: 100%;
+		font-size: 21px;
+		font-weight: 600;
+		margin-left: 20px;
 	}
 }
 
@@ -2213,6 +2256,11 @@ header.partners_header {
 
 	.partner_biznes_block_3 {
 		padding-bottom: 100px;
+	}
+
+
+	.partner_biznes_block_4 .partner_biznes_block_4_list h4 {
+		font-size: 19px;
 	}
 
 
@@ -2458,15 +2506,31 @@ header.partners_header {
 
 	
 
+	
+
 }
 
 
-@media screen and(max-width: 500px)
+@media screen and(max-width: 505px)
 {
 	.partner_biznes_block_3 .partner_biznes_block_3_box a
 	{
 		padding: 8px 0;
 		width: 100%;
+	}
+
+	.partner_biznes_block_4 .partner_biznes_block_4_list {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.partner_biznes_block_4 .partner_biznes_block_4_list h4
+	{
+		margin-top: 30px;
+		margin-left: 0;
 	}
 }
 
