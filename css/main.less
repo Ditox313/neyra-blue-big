@@ -1417,7 +1417,7 @@ header.partners_header {
 {
 	position: relative;
 	margin-top: -70px;
-	margin-bottom: 100px;
+	margin-bottom: 120px;
 
 	.partner_biznes_block_4_list
 	{
@@ -1433,6 +1433,87 @@ header.partners_header {
 		}
 
 	}
+}
+
+
+.partner_biznes_block_5
+{
+	margin-bottom: 70px;
+
+	.partner_biznes_block_5_title
+	{
+		text-align: center;
+		h2
+		{
+			font-size: 32px;
+			font-weight: 700;
+		}
+	}
+
+	.partner_biznes_block_5_list
+	{
+		.partner_biznes_block_5_item
+		{
+			h3
+			{
+				font-size: 32px;
+				font-weight: 700;
+			}
+
+			a {
+				display: inline-block;
+				border: 3px solid #111;
+				padding: 5px 25px;
+				font-size: 22px;
+				border-radius: 30px;
+				font-family: @fontOp;
+				font-weight: 500;
+				line-height: 35px;
+				color: #111;
+				position: relative;
+				overflow: hidden;
+				transition: all 0.3s;
+				margin-top: 20px;
+				font-weight: 500;
+
+
+				&:hover {
+					text-decoration: none;
+					background-color: #0589D6;
+					color: #fff;
+					transition: all 0.3s;
+					border: 3px solid #fff;
+				}
+
+
+
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				&:hover::after {
+					transform: translateX(0%);
+				}
+			}
+
+			p
+			{
+				font-size: 18px;
+			}
+		}
+
+		.pl-60
+		{
+			padding-left: 60px;
+		}
+	}
+}
+
+
+.partner_biznes_block_6
+{
+
 }
 
 
@@ -2084,6 +2165,16 @@ header.partners_header {
 		margin-left: 20px;
 	}
 
+	.partner_biznes_block_5 .partner_biznes_block_5_list .partner_biznes_block_5_item h3
+	{
+		font-size: 27px;
+	}
+
+	.partner_biznes_block_5 .partner_biznes_block_5_list .partner_biznes_block_5_item
+	{
+		margin-bottom: 50px;
+	}
+
 
 
 
@@ -2261,6 +2352,22 @@ header.partners_header {
 
 	.partner_biznes_block_4 .partner_biznes_block_4_list h4 {
 		font-size: 19px;
+	}
+
+	.partner_biznes_block_5 .partner_biznes_block_5_list .pl-60
+	{
+		padding-left: 0;
+	}
+
+	.partner_biznes_block_5 .partner_biznes_block_5_list .partner_biznes_block_5_item
+	{
+		text-align: center;
+	}
+
+
+	.partner_biznes_mod_order
+	{
+		order: -1;
 	}
 
 
@@ -2802,6 +2909,11 @@ header.partners_header {
 	{
 		font-size: 14px;
 		padding: 8px 5px;
+	}
+
+	.partner_biznes_block_5 .partner_biznes_block_5_title h2 {
+		font-size: 24px;
+		font-weight: 700;
 	}
 
 
