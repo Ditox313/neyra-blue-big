@@ -238,3 +238,12 @@ document.addEventListener('DOMContentLoaded', function () {
 // 	yoyo:true,
 // 	ease: "circ.out"
 // });
+
+$('.partner_biznes_questsion_block').on('click', function () {
+  $(this).children('.partner_biznes_questsion_block_answer').slideToggle('normal');
+  $(this).find('.fa-angle-down').toggleClass('dn');
+  $(this).find('.fa-angle-up').toggleClass('db'); // $('.fa-angle-down').toggleClass('dn');
+  // $('.fa-angle-up').toggleClass('db');
+
+  $(this).toggleClass('dark_blue');
+});

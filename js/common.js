@@ -86,7 +86,7 @@ $('.review_slider').slick({
 	autoplaySpeed: 2000,
 
 	responsive: [
-		
+
 		{
 			breakpoint: 1280,
 			settings: {
@@ -111,7 +111,7 @@ $('.review_slider').slick({
 				slidesToShow: 1
 			}
 		},
-		
+
 	]
 });
 
@@ -119,38 +119,38 @@ $('.review_slider').slick({
 
 // Мой код
 
-window.onresize = function(event) {
-	if(window.innerWidth <= 768) {
-	  $('.order_mod').addClass("order-2");
+window.onresize = function (event) {
+	if (window.innerWidth <= 768) {
+		$('.order_mod').addClass("order-2");
 	}
-  };
+};
 
 
-  $('.block_5_btn').on('click', function(){
+$('.block_5_btn').on('click', function () {
 	$('.block_5_up').slideToggle();
-  });
+});
 
-  $('.fa-angle-double-down').on('click', function(){
+$('.fa-angle-double-down').on('click', function () {
 	$('.fa-angle-double-down').css('display', 'none');
 	$('.fa-angle-double-up').css('display', 'block');
-  });
+});
 
-  $('.fa-angle-double-up').on('click', function(){
+$('.fa-angle-double-up').on('click', function () {
 	$('.fa-angle-double-up').css('display', 'none');
 	$('.fa-angle-double-down').css('display', 'block');
-  });
+});
 
 
-  $('.block_7_content').slick({
+$('.block_7_content').slick({
 	lazyLoad: 'ondemand',
 	slidesToShow: 4,
 	slidesToScroll: 1,
 	autoplay: true,
 	autoplaySpeed: 2000,
-	  
 
-	  responsive: [
-		
+
+	responsive: [
+
 		{
 			breakpoint: 1200,
 			settings: {
@@ -171,48 +171,47 @@ window.onresize = function(event) {
 				slidesToShow: 1
 			}
 		},
-		
-		
+
+
 	]
-  });
+});
 
 
 
 
-  $('.block_8_content').slick({
+$('.block_8_content').slick({
 	centerMode: true,
 	centerPadding: '0px',
 	slidesToShow: 3,
 	dots: true,
-	responsive: [
-	  {
-		breakpoint: 992,
-		settings: {
-		  arrows: false,
-		  centerMode: true,
-		  centerPadding: '40px',
-		  slidesToShow: 2
-		}
-	  },
+	responsive: [{
+			breakpoint: 992,
+			settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 2
+			}
+		},
 
-	  {
-		breakpoint: 768,
-		settings: {
-		  arrows: false,
-		  centerMode: true,
-		  centerPadding: '40px',
-		  slidesToShow: 1
-		}
-	  },
-	  
+		{
+			breakpoint: 768,
+			settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			}
+		},
+
 	]
-  });
+});
 
 
 
-  
-  
-  
+
+
+
 
 
 
@@ -224,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-const body = document.querySelector('body')
+	const body = document.querySelector('body')
 
 	// After update OptimizedHTML5
 	let cx, cy, mouseX, mouseY, posX, posY, clientX, clientY, dx, dy, tiltx, tilty, request, radius, degree
@@ -247,13 +246,15 @@ const body = document.querySelector('body')
 
 	function updateMe() {
 
-		dx     = clientX - cx
-		dy     = clientY - cy
-		tiltx  = dy / cy
-		tilty  = dx / cx
+		dx = clientX - cx
+		dy = clientY - cy
+		tiltx = dy / cy
+		tilty = dx / cx
 		radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2))
 		degree = radius * 14
-		gsap.to('.header_home h1, .header_home h4', 1, { transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )` })
+		gsap.to('.header_home h1, .header_home h4', 1, {
+			transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )`
+		})
 
 	}
 
@@ -261,9 +262,9 @@ const body = document.querySelector('body')
 
 
 
-	const cursor   = document.getElementById('cursor'),
-				follower = document.getElementById('aura'),
-				links    = document.getElementsByTagName('a')
+	const cursor = document.getElementById('cursor'),
+		follower = document.getElementById('aura'),
+		links = document.getElementsByTagName('a')
 
 	mouseX = 0, mouseY = 0, posX = 0, posY = 0
 
@@ -301,7 +302,7 @@ const body = document.querySelector('body')
 
 	})
 
-	for(let i = 0; i < links.length; i++) {
+	for (let i = 0; i < links.length; i++) {
 
 		links[i].addEventListener('mouseover', () => {
 			cursor.classList.add('active')
@@ -327,11 +328,19 @@ const body = document.querySelector('body')
 // 	repeat:-1, 
 // 	yoyo:true,
 // 	ease: "circ.out"
-	
+
 // });
 
 
 
+$('.partner_biznes_questsion_block').on('click', function () {
+	$(this).children('.partner_biznes_questsion_block_answer').slideToggle('normal');
+	$(this).find('.fa-angle-down').toggleClass('dn');
+	$(this).find('.fa-angle-up').toggleClass('db');
+	// $('.fa-angle-down').toggleClass('dn');
+	// $('.fa-angle-up').toggleClass('db');
+	$(this).toggleClass('dark_blue');
+});
 
 
 
