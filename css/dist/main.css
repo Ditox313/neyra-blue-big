@@ -1062,6 +1062,41 @@ header.partners_header {
 .header_join_us .header_neyra_market_btn a:hover::after {
   transform: translateX(0%);
 }
+.join_us_block_2 {
+  position: relative;
+  margin-top: -183px;
+  margin-bottom: 100px;
+}
+.join_us_block_2 .join_us_block_2_list .row {
+  align-items: flex-end;
+}
+.join_us_block_2 .join_us_block_2_list .join_us_block_2_item .join_us_block_2_item_title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.join_us_block_2 .join_us_block_2_list .join_us_block_2_item .join_us_block_2_item_list ul {
+  padding-left: 25px;
+}
+.join_us_block_2 .join_us_block_2_list .join_us_block_2_item .join_us_block_2_item_list ul li {
+  list-style-type: none;
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.join_us_block_2 .join_us_block_2_list .join_us_block_2_item .join_us_block_2_item_list ul li::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #0288D4;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: -5px;
+  border-radius: 50%;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1261,6 +1296,18 @@ header.partners_header {
   }
   .header_join_us .header_content h1 {
     font-size: 45px;
+  }
+  .join_us_block_2 .join_us_block_2_list .join_us_block_2_item .join_us_block_2_item_list ul li {
+    font-size: 17px;
+  }
+  .join_us_block_2 {
+    margin-top: -205px;
+  }
+  .header_join_us {
+    min-height: 923px;
+  }
+  .join_us_block_2_item img {
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 998px) {
@@ -1499,6 +1546,18 @@ header.partners_header {
   }
   .header_join_us {
     min-height: 860px;
+  }
+  .join_us_block_2_item {
+    margin-bottom: 50px;
+  }
+  .join_us_block_2_item img {
+    width: 276px;
+  }
+  .join_us_block_2_item img {
+    margin-bottom: 0px;
+  }
+  .join_us_block_2 {
+    margin-top: -240px;
   }
 }
 @media screen and (max-width: 845px) {
@@ -1808,6 +1867,9 @@ header.partners_header {
   .header_join_us {
     min-height: 780px;
   }
+  .join_us_block_2 {
+    margin-top: -195px;
+  }
 }
 @media screen and (max-width: 505px) {
   .partner_biznes_block_3 .partner_biznes_block_3_box a {
@@ -2043,6 +2105,9 @@ header.partners_header {
   }
   .header_join_us {
     min-height: 890px;
+  }
+  .join_us_block_2 .join_us_block_2_list .join_us_block_2_item .join_us_block_2_item_title h2 {
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 360px) {
