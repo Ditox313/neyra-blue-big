@@ -1288,6 +1288,9 @@ header.partners_header {
   .block_2 .review_slider .review_slider_item .review_slider_item__text .review_content {
     font-size: 21px;
   }
+  .join_us_block_3 {
+    background-position: 130% 30% !important;
+  }
 }
 @media screen and (max-width: 1310px) {
   .block_2 .review_slider .review_slider_item .review_slider_item__img img {
@@ -2022,6 +2025,9 @@ header.partners_header {
   }
   .join_us_block_2 {
     margin-top: -195px;
+  }
+  .join_us_block_3 {
+    background-position: 100% 30% !important;
   }
 }
 @media screen and (max-width: 505px) {
