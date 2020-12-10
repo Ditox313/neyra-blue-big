@@ -184,9 +184,11 @@ document.addEventListener('DOMContentLoaded', function () {
     gsap.to('.header_home h1, .header_home h4', 1, {
       transform: "rotate3d( ".concat(tiltx, ", ").concat(tilty, ", 0, ").concat(degree, "deg )")
     });
-  } // gsap.to('h1', { zoom: .98 })
+  }
 
-
+  gsap.to('h1', {
+    zoom: .98
+  });
   var cursor = document.getElementById('cursor'),
       follower = document.getElementById('aura'),
       links = document.getElementsByTagName('a');
@@ -232,13 +234,13 @@ document.addEventListener('DOMContentLoaded', function () {
     cursor.classList.add('hidden');
     follower.classList.add('hidden');
   });
-});
-gsap.to('.but_up', 2, {
-  bottom: "100px",
-  repeat: -1,
-  yoyo: true,
-  ease: "circ.out"
-});
+}); // gsap.to('.but_up', 2,  {
+// 	bottom:"100px",
+// 	repeat:-1, 
+// 	yoyo:true,
+// 	ease: "circ.out"
+// });
+
 $('.partner_biznes_questsion_block').on('click', function () {
   $(this).children('.partner_biznes_questsion_block_answer').slideToggle('normal');
   $(this).find('.fa-angle-down').toggleClass('dn');

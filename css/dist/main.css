@@ -1024,6 +1024,44 @@ header.partners_header {
   top: 50%;
   margin-top: -17px;
 }
+.header_join_us {
+  min-height: 970px;
+}
+.header_join_us .header_content h1 {
+  font-size: 48px;
+}
+.header_join_us h4 {
+  width: 100% !important;
+  font-size: 24px;
+}
+.header_join_us .header_neyra_market_btn a {
+  display: inline-block;
+  border: 3px solid #fff;
+  padding: 8px 50px;
+  font-size: 20px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-top: 55px;
+}
+.header_join_us .header_neyra_market_btn a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #0589D6;
+  transition: all 0.3s;
+  border: 3px solid #0589D6;
+}
+.header_join_us .header_neyra_market_btn a:hover {
+  text-decoration: none;
+}
+.header_join_us .header_neyra_market_btn a:hover::after {
+  transform: translateX(0%);
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1220,6 +1258,9 @@ header.partners_header {
     font-size: 21px;
     font-weight: 600;
     margin-left: 20px;
+  }
+  .header_join_us .header_content h1 {
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 998px) {
@@ -1455,6 +1496,9 @@ header.partners_header {
   }
   .partner_biznes_block_6 .partner_biznes_block_6_list .partner_biznes_questsion_block .partner_biznes_questsion_block_title i {
     right: -25px;
+  }
+  .header_join_us {
+    min-height: 860px;
   }
 }
 @media screen and (max-width: 845px) {
@@ -1758,6 +1802,12 @@ header.partners_header {
   .partner_biznes_block_3 .partner_biznes_block_3_works {
     margin-bottom: 45px;
   }
+  .header_join_us .header_content h1 {
+    font-size: 36px;
+  }
+  .header_join_us {
+    min-height: 780px;
+  }
 }
 @media screen and (max-width: 505px) {
   .partner_biznes_block_3 .partner_biznes_block_3_box a {
@@ -1983,6 +2033,16 @@ header.partners_header {
   }
   .partner_biznes_block_6 .partner_biznes_block_6_title h2 {
     font-size: 28px;
+  }
+  .header_join_us .header_content h4 {
+    font-size: 17px;
+  }
+  .header_join_us .header_neyra_market_btn a {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+  .header_join_us {
+    min-height: 890px;
   }
 }
 @media screen and (max-width: 360px) {
