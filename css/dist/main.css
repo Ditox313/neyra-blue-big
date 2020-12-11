@@ -1225,6 +1225,12 @@ header.partners_header {
 .join_us_block_3 .block_3_join_us_section_3 .block_3_join_us_section_3_btn a:hover::after {
   transform: translateX(0%);
 }
+.join_us_block_5 {
+  margin-bottom: 0 !important;
+}
+.join_us_block_8 {
+  padding: 40px 0;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -2287,6 +2293,9 @@ header.partners_header {
   }
   .join_us_block_3 .block_3_join_us_section_3 .block_3_join_us_section_3_list .block_3_join_us_section_3_item {
     font-size: 18px;
+  }
+  .join_us_block_8 {
+    padding: 20px 0 40px 0;
   }
 }
 @media screen and (max-width: 360px) {
