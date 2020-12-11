@@ -1235,7 +1235,7 @@ header.partners_header {
   padding: 40px 0;
 }
 .lectory_block_8 {
-  padding: 40px 0;
+  padding: 30px 0 40px 0;
   margin-bottom: 0;
 }
 .lectory_block_5 {
@@ -1254,7 +1254,7 @@ header.partners_header {
 }
 .header_lectory_btn_box {
   margin-top: -245px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 .header_lectory_btn_box h3 {
   font-size: 32px;
@@ -1291,6 +1291,45 @@ header.partners_header {
   text-decoration: none;
 }
 .header_lectory_btn_box a:hover::after {
+  transform: translateX(0%);
+}
+.lectory_block_2 {
+  margin-bottom: 40px;
+}
+.lectory_block_2 .lectory_block_2_list .lectory_block_2_item h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.lectory_block_2 .lectory_block_2_list .lectory_block_2_item p {
+  font-size: 21px;
+}
+.lectory_block_2 .lectory_block_2_list .lectory_block_2_item a {
+  display: inline-block;
+  border: 3px solid #111;
+  padding: 5px 40px;
+  font-size: 22px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 35px;
+  color: #111;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.lectory_block_2 .lectory_block_2_list .lectory_block_2_item a:hover {
+  text-decoration: none;
+  background-color: #0589D6;
+  color: #fff;
+  transition: all 0.3s;
+  border: 3px solid #fff;
+}
+.lectory_block_2 .lectory_block_2_list .lectory_block_2_item a:hover {
+  text-decoration: none;
+}
+.lectory_block_2 .lectory_block_2_list .lectory_block_2_item a:hover::after {
   transform: translateX(0%);
 }
 #cursor,
@@ -1786,6 +1825,15 @@ header.partners_header {
   .header_lectory_btn_box {
     margin-top: -235px;
   }
+  .lectory_block_2_item {
+    text-align: center;
+  }
+  .header_lectory_btn_box {
+    margin-bottom: 0px;
+  }
+  .lectory_block_2 {
+    margin-bottom: 60px;
+  }
 }
 @media screen and (max-width: 845px) {
   .partner_biznes_block_3_bottom_img {
@@ -2108,6 +2156,13 @@ header.partners_header {
   }
   .join_us_block_3 {
     background-position: 100% 30% !important;
+  }
+  .lectory_block_2 .lectory_block_2_list .lectory_block_2_item h2 {
+    font-size: 29px;
+  }
+  .lectory_block_2 .lectory_block_2_list .lectory_block_2_item a {
+    padding: 5px 20px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 505px) {
