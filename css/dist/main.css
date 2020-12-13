@@ -1410,6 +1410,36 @@ header.partners_header {
 .career_block_5 .block_5_title h2 {
   font-size: 42px;
 }
+.career_block_6 {
+  margin-top: 80px;
+}
+.career_block_6 .career_block_6_title {
+  margin-bottom: 50px;
+}
+.career_block_6 .career_block_6_title h2 {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+.career_block_6 .career_block_6_list .career_block_6_item_row_1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.career_block_6 .career_block_6_list .career_block_6_item_row_1 span {
+  font-size: 22px;
+  font-weight: 700;
+  width: 45%;
+}
+.career_block_6 .career_block_6_list .career_block_6_item_row_1 img {
+  margin-right: 3%;
+}
+.career_block_6 .career_block_6_list .career_block_6_item_row_2 {
+  font-size: 17px;
+}
+.career_block_6 .career_block_6_list .career_block_6_item_row_3 {
+  font-size: 17px;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1918,6 +1948,22 @@ header.partners_header {
   .header_career {
     min-height: 838px;
   }
+  .career_block_6 .career_block_6_list .career_block_6_item_row_1 span {
+    font-size: 22px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .career_block_6 .career_block_6_list .career_block_6_item_row_1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .career_block_6 .career_block_6_list .career_block_6_item_row_2 {
+    font-size: 18px;
+  }
+  .career_block_6 .career_block_6_list .career_block_6_item_row_3 {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 845px) {
   .partner_biznes_block_3_bottom_img {
@@ -2059,6 +2105,11 @@ header.partners_header {
   }
   .header_lectory_btn_box {
     margin-top: -267px;
+  }
+  .career_block_6 .career_block_6_list .career_block_6_item_row_1 span {
+    font-size: 19px;
+    font-weight: 700;
+    width: 100%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -2558,6 +2609,19 @@ header.partners_header {
   .career_block_5 .block_5_title h2 {
     font-size: 34px;
     margin-top: 50px;
+  }
+  .career_block_6 .career_block_6_list .career_block_6_item_row_1 span {
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .career_block_6 .career_block_6_list .career_block_6_item_row_2 {
+    font-size: 16px;
+  }
+  .career_block_6 .career_block_6_title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
   }
 }
 @media screen and (max-width: 360px) {
