@@ -1332,6 +1332,57 @@ header.partners_header {
 .lectory_block_2 .lectory_block_2_list .lectory_block_2_item a:hover::after {
   transform: translateX(0%);
 }
+.lectory_block_3 {
+  margin-bottom: 80px;
+}
+.lectory_block_3 .lectory_block_3_title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.lectory_block_3 .lectory_block_3_list .lectory_block_3_item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.header_career {
+  min-height: 900px;
+}
+.header_career .header_content h1 {
+  font-size: 48px;
+}
+.header_career h4 {
+  width: 100% !important;
+  font-size: 24px;
+}
+.header_career .header_neyra_market_btn a {
+  display: inline-block;
+  border: 3px solid #fff;
+  padding: 8px 50px;
+  font-size: 20px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-top: 55px;
+}
+.header_career .header_neyra_market_btn a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #0589D6;
+  transition: all 0.3s;
+  border: 3px solid #0589D6;
+}
+.header_career .header_neyra_market_btn a:hover {
+  text-decoration: none;
+}
+.header_career .header_neyra_market_btn a:hover::after {
+  transform: translateX(0%);
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1834,6 +1885,9 @@ header.partners_header {
   .lectory_block_2 {
     margin-bottom: 60px;
   }
+  .header_career {
+    min-height: 838px;
+  }
 }
 @media screen and (max-width: 845px) {
   .partner_biznes_block_3_bottom_img {
@@ -2164,6 +2218,12 @@ header.partners_header {
     padding: 5px 20px;
     font-size: 19px;
   }
+  .header_career .header_content h1 {
+    font-size: 44px;
+  }
+  .header_career {
+    min-height: 776px;
+  }
 }
 @media screen and (max-width: 505px) {
   .partner_biznes_block_3 .partner_biznes_block_3_box a {
@@ -2440,6 +2500,15 @@ header.partners_header {
   }
   .header_lectory {
     min-height: 1223px;
+  }
+  .header_career .header_content h4 {
+    font-size: 16px;
+  }
+  .header_career .header_neyra_market_btn a {
+    padding: 8px 20px;
+  }
+  .header_career {
+    min-height: 812px;
   }
 }
 @media screen and (max-width: 360px) {
