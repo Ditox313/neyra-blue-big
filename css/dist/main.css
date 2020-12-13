@@ -1383,6 +1383,27 @@ header.partners_header {
 .header_career .header_neyra_market_btn a:hover::after {
   transform: translateX(0%);
 }
+.career_block_2 {
+  margin-top: -172px;
+}
+.career_block_2 .career_block_2_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.career_block_2 .career_block_2_item img {
+  margin-right: 5%;
+}
+.career_block_2 .career_block_2_item span {
+  font-size: 22px;
+  font-weight: 700;
+}
+.career_block_2 .career_block_2_item p {
+  font-size: 22px;
+}
+.career_block_2 .career_block_2_mod {
+  margin-bottom: 50px;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1597,6 +1618,9 @@ header.partners_header {
   }
   .join_us_block_2_item img {
     margin-bottom: 50px;
+  }
+  .career_block_2 .career_block_2_item span {
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 998px) {
@@ -2223,6 +2247,17 @@ header.partners_header {
   }
   .header_career {
     min-height: 776px;
+  }
+  .career_block_2 .career_block_2_item {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .career_block_2 .career_block_2_item img {
+    margin-left: 36%;
+    margin-bottom: 8%;
+  }
+  .career_block_2 .career_block_2_item p {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 505px) {
