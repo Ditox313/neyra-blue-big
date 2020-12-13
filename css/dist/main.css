@@ -1404,6 +1404,12 @@ header.partners_header {
 .career_block_2 .career_block_2_mod {
   margin-bottom: 50px;
 }
+.career_block_5 {
+  margin-top: 80px;
+}
+.career_block_5 .block_5_title h2 {
+  font-size: 42px;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -2259,6 +2265,10 @@ header.partners_header {
   .career_block_2 .career_block_2_item p {
     font-size: 18px;
   }
+  .career_block_5 .block_5_title h2 {
+    font-size: 42px;
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 505px) {
   .partner_biznes_block_3 .partner_biznes_block_3_box a {
@@ -2544,6 +2554,10 @@ header.partners_header {
   }
   .header_career {
     min-height: 812px;
+  }
+  .career_block_5 .block_5_title h2 {
+    font-size: 34px;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 360px) {
