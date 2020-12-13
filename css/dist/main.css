@@ -1442,7 +1442,7 @@ header.partners_header {
 }
 .career_block_7 {
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 .career_block_7 .career_block_7_list .career_block_7_item .career_block_7_item_row_1 {
   display: flex;
@@ -1496,6 +1496,12 @@ header.partners_header {
 }
 .career_block_7 .career_block_7_list .career_block_7_item_2 img {
   width: 80%;
+}
+.career_block_7-1 {
+  margin-bottom: 50px;
+}
+.career_block_7-1 h2 {
+  font-size: 42px !important;
 }
 #cursor,
 #aura {
@@ -2706,6 +2712,9 @@ header.partners_header {
   .career_block_7 .career_block_7_list .career_block_7_item a {
     padding: 5px 20px;
     font-size: 21px;
+  }
+  .block_7 .block_7_title h2 {
+    font-size: 32px !important;
   }
 }
 @media screen and (max-width: 360px) {
