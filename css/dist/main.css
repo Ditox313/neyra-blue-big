@@ -1541,6 +1541,38 @@ header.partners_header {
 .header_calendar .header_neyra_market_btn a:hover::after {
   transform: translateX(0%);
 }
+.calendar_block_2 {
+  margin-top: -225px;
+}
+.calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 img {
+  margin-right: 40px;
+}
+.calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 span {
+  font-size: 32px;
+  font-weight: 700;
+  width: 50%;
+  display: inline-block;
+  width: 40%;
+  line-height: 40px;
+}
+.calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_2 .calendar_block_2_content_item_row_2_item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_2 .calendar_block_2_content_item_row_2_item span {
+  font-size: 22px;
+  font-weight: 500;
+}
+.calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_2 .calendar_block_2_content_item_row_2_item img {
+  margin-right: 15px;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -2093,6 +2125,9 @@ header.partners_header {
   .header_calendar {
     min-height: 830px;
   }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 845px) {
   .partner_biznes_block_3_bottom_img {
@@ -2239,6 +2274,12 @@ header.partners_header {
     font-size: 19px;
     font-weight: 700;
     width: 100%;
+  }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 {
+    justify-content: flex-end;
+  }
+  .calendar_block_2 {
+    margin-top: -203px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -2460,6 +2501,20 @@ header.partners_header {
   }
   .header_calendar .header_neyra_market_btn a {
     margin-top: 25px;
+  }
+  .calendar_block_2 {
+    margin-top: -160px;
+  }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 span {
+    font-size: 30px;
+    font-weight: 700;
+    width: 50%;
+    display: inline-block;
+    width: 54%;
+    line-height: 40px;
+  }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 img {
+    margin-right: 20px;
   }
 }
 @media screen and (max-width: 505px) {
@@ -2787,6 +2842,29 @@ header.partners_header {
   .header_calendar .header_neyra_market_btn a {
     padding: 8px 20px;
     font-size: 18px;
+  }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 span {
+    font-size: 30px;
+    font-weight: 700;
+    width: 50%;
+    display: inline-block;
+    width: 54%;
+    line-height: 40px;
+  }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 img {
+    margin-right: 20px;
+  }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_1 span {
+    font-size: 23px;
+    font-weight: 700;
+    width: 50%;
+    display: inline-block;
+    width: 54%;
+    line-height: 33px;
+  }
+  .calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_2 .calendar_block_2_content_item_row_2_item span {
+    font-size: 19px;
+    font-weight: 500;
   }
 }
 @media screen and (max-width: 360px) {
