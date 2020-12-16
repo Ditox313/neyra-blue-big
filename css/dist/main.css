@@ -1503,6 +1503,44 @@ header.partners_header {
 .career_block_7-1 h2 {
   font-size: 42px !important;
 }
+.header_calendar {
+  min-height: 900px;
+}
+.header_calendar .header_content h1 {
+  font-size: 48px;
+}
+.header_calendar h4 {
+  width: 65% !important;
+  font-size: 24px;
+}
+.header_calendar .header_neyra_market_btn a {
+  display: inline-block;
+  border: 3px solid #fff;
+  padding: 8px 50px;
+  font-size: 20px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-top: 55px;
+}
+.header_calendar .header_neyra_market_btn a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #0589D6;
+  transition: all 0.3s;
+  border: 3px solid #0589D6;
+}
+.header_calendar .header_neyra_market_btn a:hover {
+  text-decoration: none;
+}
+.header_calendar .header_neyra_market_btn a:hover::after {
+  transform: translateX(0%);
+}
 #cursor,
 #aura {
   position: absolute;
@@ -1726,6 +1764,9 @@ header.partners_header {
   }
   .career_block_7 .career_block_7_list .career_block_7_item div {
     font-size: 21px;
+  }
+  header .header_content h4 {
+    width: 68% !important;
   }
 }
 @media screen and (max-width: 998px) {
@@ -2042,6 +2083,15 @@ header.partners_header {
   }
   .career_block_7 .career_block_7_list .career_block_7_item .career_block_7_btn {
     text-align: center;
+  }
+  .header_calendar .header_content h1 {
+    font-size: 42px;
+  }
+  header .header_content h4 {
+    width: 80% !important;
+  }
+  .header_calendar {
+    min-height: 830px;
   }
 }
 @media screen and (max-width: 845px) {
@@ -2399,6 +2449,18 @@ header.partners_header {
     font-size: 42px;
     margin-top: 50px;
   }
+  .header_calendar .header_content h1 {
+    font-size: 37px;
+  }
+  header .header_content h4 {
+    width: 100% !important;
+  }
+  .header_calendar {
+    min-height: 760px;
+  }
+  .header_calendar .header_neyra_market_btn a {
+    margin-top: 25px;
+  }
 }
 @media screen and (max-width: 505px) {
   .partner_biznes_block_3 .partner_biznes_block_3_box a {
@@ -2715,6 +2777,16 @@ header.partners_header {
   }
   .block_7 .block_7_title h2 {
     font-size: 32px !important;
+  }
+  .header_calendar .header_content h1 {
+    font-size: 28px;
+  }
+  header .header_content h4 {
+    font-size: 19px;
+  }
+  .header_calendar .header_neyra_market_btn a {
+    padding: 8px 20px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 360px) {
