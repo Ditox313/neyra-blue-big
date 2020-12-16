@@ -2326,6 +2326,7 @@ header.partners_header {
 .calendar_block_2
 {
 	margin-top: -225px;
+	margin-bottom: 80px;
 
 	.calendar_block_2_content
 	{
@@ -2376,6 +2377,100 @@ header.partners_header {
 				}
 			}
 		}
+	}
+}
+
+
+.calendar_block_3
+{
+	.calendar_block_3_list
+	{
+		.calendar_block_3_item
+		{
+			border-radius: 30px;
+			transition: all 0.3s;
+			cursor: pointer;
+			margin-bottom: 30px;
+
+			&:hover
+			{
+				transform: translateY(-10px);
+				transition: all 0.3s;
+			}
+			
+			.calendar_block_3_item_img
+			{
+
+				img
+				{
+					border-top-left-radius: 10px;
+					border-top-right-radius: 10px;
+				}
+				
+			}
+
+
+			.calendar_block_3_item_content
+			{
+				background-color: #EEEEEE;
+				padding: 20px;
+
+				border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+
+				h3
+				{
+					font-size: 22px;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
+
+
+.block_8_content_calendar
+{
+	.block_slide
+	{
+		height: 319px;
+		width: 250px;
+		text-align: center;
+		position: relative;
+
+
+		.block_8_content_calendar_overlay
+		{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: rgba(0,0,0,0);
+		}
+
+		iframe {
+			width: 100% !important;
+			height: 315px;
+			border-top-width: 0px;
+			border-right-width: 0px;
+			border-bottom-width: 0px;
+			border-left-width: 0px;
+		}
+	}
+}
+
+.block_8_btn_calendar
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	h2
+	{
+		font-size: 32px;
+		font-weight: 700;
 	}
 }
 
@@ -3775,6 +3870,12 @@ header.partners_header {
 	}
 
 
+	.block_8_btn_calendar h2 {
+		font-size: 23px;
+		font-weight: 700;
+	}
+
+
 
 
 
@@ -4259,6 +4360,18 @@ header.partners_header {
 	.calendar_block_2 .calendar_block_2_content .calendar_block_2_content_item .calendar_block_2_content_item_row_2 .calendar_block_2_content_item_row_2_item span {
 		font-size: 19px;
 		font-weight: 500;
+	}
+
+
+	.block_8_btn_calendar h2 {
+		font-size: 19px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+
+	.block_8 .block_8_title h2 {
+		font-size: 25px;
 	}
 
 

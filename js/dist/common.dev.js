@@ -249,3 +249,9 @@ $('.partner_biznes_questsion_block').on('click', function () {
 
   $(this).toggleClass('dark_blue');
 });
+var block_8_video_overlays = document.querySelectorAll('.block_8_content_calendar_overlay');
+block_8_video_overlays.forEach(function (item) {
+  item.addEventListener('click', function (e) {
+    item.remove();
+  });
+});
