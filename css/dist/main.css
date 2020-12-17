@@ -1680,6 +1680,48 @@ header.partners_header {
 .why_create_block_2 .why_create_block_2_btn a:hover::after {
   transform: translateX(0%);
 }
+.why_create_block_5 .why_create_block_5_item {
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+}
+.why_create_block_5 .why_create_block_5_item:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+}
+.why_create_block_5 .why_create_block_5_item .why_create_block_5_item_img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.why_create_block_5 .why_create_block_5_item_content_item_country {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.why_create_block_5 .why_create_block_5_item_content {
+  padding: 20px;
+  background-color: #EEEEEE;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.why_create_block_5 .why_create_block_5_item_content .why_create_block_5_item_content_item {
+  height: 100%;
+  cursor: pointer;
+}
+.why_create_block_5 .why_create_block_5_item_content .why_create_block_5_item_content_item h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.why_create_block_5 .why_create_block_5_item_content .why_create_block_5_item_content_item div {
+  font-size: 18px;
+  font-weight: 500;
+}
+.why_create_block_5 .why_create_block_5_item_content .why_create_block_5_item_content_item_country img {
+  margin-bottom: 15px;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -2247,6 +2289,9 @@ header.partners_header {
   .why_create_block_2 {
     margin-top: -230px;
   }
+  .why_create_block_5 .why_create_block_5_item .why_create_block_5_item_img img {
+    height: auto;
+  }
 }
 @media screen and (max-width: 845px) {
   .partner_biznes_block_3_bottom_img {
@@ -2402,6 +2447,11 @@ header.partners_header {
   }
   .header_why_create .header_content h4 {
     font-size: 20px;
+  }
+  .why_create_block_5 .why_create_block_5_item_content .why_create_block_5_item_content_item div {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 13px;
   }
 }
 @media screen and (max-width: 576px) {
