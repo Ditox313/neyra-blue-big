@@ -1723,13 +1723,16 @@ header.partners_header {
   margin-bottom: 15px;
 }
 .why_create_block_6 {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   margin-top: 60px;
 }
 .why_create_block_6 .why_create_block_6_title h2 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+.why_create_block_7 {
+  margin-bottom: 50px;
 }
 .why_create_block_7 .why_create_block_7_title {
   margin-bottom: 60px;
@@ -1787,19 +1790,18 @@ header.partners_header {
   font-size: 32px;
   font-weight: 400;
 }
-.why_create_block_7 {
+.why_create_block_9 {
   margin-top: -100px;
-  margin-bottom: 80px;
 }
-.why_create_block_7 .block_7_title h2 {
+.why_create_block_9 .block_7_title h2 {
   font-size: 32px;
 }
-.why_create_block_7 .why_create_block_7_btn {
+.why_create_block_9 .why_create_block_7_btn {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
-.why_create_block_7 .why_create_block_7_btn a {
+.why_create_block_9 .why_create_block_7_btn a {
   display: inline-block;
   border: 3px solid #0589D6;
   padding: 8px 30px;
@@ -1813,7 +1815,7 @@ header.partners_header {
   overflow: hidden;
   transition: all 0.3s;
 }
-.why_create_block_7 .why_create_block_7_btn a:hover {
+.why_create_block_9 .why_create_block_7_btn a:hover {
   text-decoration: none;
   background-color: #0589D6;
   color: #fff;
@@ -2070,6 +2072,9 @@ header.partners_header {
   .why_create_block_8 .why_create_block_8_list .why_create_block_8_item {
     font-size: 29px;
     font-weight: 400;
+  }
+  .why_create_block_8 {
+    padding: 60px 0 190px 0;
   }
 }
 @media screen and (max-width: 998px) {
@@ -2422,7 +2427,14 @@ header.partners_header {
     font-weight: 400;
   }
   .why_create_block_8 {
-    padding: 120px 0 136px 0;
+    padding: 0 0 71px 0;
+  }
+  .why_create_block_8 {
+    padding: 59px 0 224px 0;
+  }
+  .why_create_block_7 {
+    margin-top: 0px;
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 845px) {
@@ -2605,6 +2617,20 @@ header.partners_header {
   }
   .why_create_block_7 {
     margin-top: 0px;
+  }
+  .why_create_block_6 {
+    margin-bottom: 80px;
+    margin-top: 60px;
+  }
+  .why_create_block_8 {
+    padding: 22px 0 71px 0;
+  }
+  .why_create_block_7_1 {
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+  .why_create_block_9 {
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 576px) {
@@ -2867,6 +2893,10 @@ header.partners_header {
   }
   .why_create_block_8 {
     padding: 0px 0 60px 0;
+  }
+  .why_create_block_10 {
+    padding: 0 0 80px 0;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 505px) {
@@ -3256,6 +3286,9 @@ header.partners_header {
   .why_create_block_8 .why_create_block_8_list .why_create_block_8_item {
     font-size: 18px;
     font-weight: 400;
+  }
+  .why_create_block_8 .block_8_title h2 {
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 360px) {
