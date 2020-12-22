@@ -2840,6 +2840,7 @@ header.partners_header {
 		{
 			margin-bottom: 25px;
 			transition: all 0.3s;
+			cursor: pointer;
 
 			&:hover .blog_block_2_item_title > h3
 			{
@@ -2976,6 +2977,135 @@ header.partners_header {
 				{
 					font-weight: 500;
 				}
+			}
+		}
+	}
+}
+
+
+.blog_block_3
+{
+	margin-top: 80px;
+
+	.blog_block_3_title
+	{
+		margin-bottom: 60px;
+
+		h2
+		{
+			font-size: 36px;
+			font-weight: 700;
+		}
+	}
+
+	.blog_block_3_content
+	{
+		.blog_block_3_item
+		{
+			margin-bottom: 30px;
+			transition: all 0.3s;
+			cursor: pointer;
+
+			.blog_block_3_item-item-img
+			{
+				img
+				{
+					border-radius: 10px;
+					height: 250px;
+				}
+			}
+
+			.blog_block_3_item-item-text
+			{
+				a
+				{
+					color: inherit;
+
+					&:hover
+					{
+						text-decoration: none;
+					}
+
+					h3
+					{
+						font-size: 32px;
+						font-weight: 700;
+						margin-bottom: 10px;
+					}
+				}
+				
+
+				div	
+				{
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 10px;
+
+					a.author
+					{
+						
+						font-weight: 700;
+						color: inherit;
+
+						&:hover
+						{
+							text-decoration: none;
+						}
+					}
+
+					a.date
+					{
+						font-weight: 600;
+						font-size: 10px;
+						color: silver;
+
+						&:hover
+						{
+							text-decoration: none;
+						}
+					}
+				}
+			}
+			
+		}
+
+		.blog_block_3_sidebar
+		{
+			.blog_block_3_sidebar_item
+			{
+				height: 350px;
+				border-radius: 10px;
+				padding: 20px;
+				margin-bottom: 30px;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				
+				a
+				{
+					color: inherit;
+
+					&:hover
+					{
+						text-decoration: none;
+					}
+
+
+					h3
+					{
+						font-size: 32px;
+						font-weight: 700;
+						text-align: right;
+					}
+				}
+
+				p	
+				{
+					font-size: 14px;
+					text-align: right;
+				}
+				
 			}
 		}
 	}
@@ -3382,6 +3512,15 @@ header.partners_header {
 
 	.blog_block_2 {
 		margin-top: -45px;
+	}
+
+	.blog_block_3 .blog_block_3_content .blog_block_3_sidebar .blog_block_3_sidebar_item {
+		height: 291px;
+	}
+
+
+	.blog_block_3 .blog_block_3_content .blog_block_3_sidebar .blog_block_3_sidebar_item a h3 {
+		font-size: 28px;
 	}
 
 	
@@ -3959,6 +4098,11 @@ header.partners_header {
 		height: 320px;
 	}
 
+
+	.blog_block_3 .blog_block_3_content .blog_block_3_item .blog_block_3_item-item-text a h3 {
+		margin-top: 15px;
+	}
+
 	
 
 
@@ -4300,6 +4444,22 @@ header.partners_header {
 	.header_blog_btn_box .header_btn_box_text
 	{
 		justify-content: center;
+	}
+
+
+	.blog_block_2_item
+	{
+		height: auto !important;
+	}
+
+	.blog_block_2 .blog_block_2_list .blog_block_2_item_small .blog_block_2_item_title a h3 {
+		font-size: 36px;
+		font-weight: 700;
+	}
+
+
+	.blog_block_3 .blog_block_3_content .blog_block_3_item .blog_block_3_item-item-img img {
+		width: 100%;
 	}
 
 
@@ -4715,6 +4875,16 @@ header.partners_header {
 
 	.header_blog_btn_box {
 		margin-top: -186px !important;
+	}
+
+	.blog_block_2 .blog_block_2_list .blog_block_2_item_big .blog_block_2_item_title a h3 {
+		font-size: 32px;
+		font-weight: 700;
+	}
+
+	.blog_block_2 .blog_block_2_list .blog_block_2_item_smalls .blog_block_2_item_title a h3 {
+		font-size: 32px;
+		font-weight: 700;
 	}
 
 }
@@ -5299,6 +5469,25 @@ header.partners_header {
 	}
 
 
+	.blog_block_2 .blog_block_2_list .blog_block_2_item_big .blog_block_2_item_title a h3 {
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.blog_block_2 .blog_block_2_list .blog_block_2_item_small .blog_block_2_item_title a h3 {
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.blog_block_2 .blog_block_2_list .blog_block_2_item_small .blog_block_2_item_meta a {
+		font-size: 14px;
+	}
+
+	.blog_block_2 .blog_block_2_list .blog_block_2_item_big .blog_block_2_item_meta a {
+		font-size: 14px;
+	}
+
+
 
 
 
@@ -5329,5 +5518,13 @@ header.partners_header {
 
 	.blog_block_2 .blog_block_2_list .blog_block_2_item_small .blog_block_2_item_title h3 {
 		font-size: 24px;
+	}
+
+	.blog_block_3 .blog_block_3_title h2 {
+		font-size: 32px;
+	}
+
+	.blog_block_3 .blog_block_3_content .blog_block_3_item .blog_block_3_item-item-text a h3 {
+		font-size: 28px;
 	}
 }
