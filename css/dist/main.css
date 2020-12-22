@@ -1822,6 +1822,19 @@ header.partners_header {
   transition: all 0.3s;
   border: 3px solid #fff;
 }
+.header_blog {
+  min-height: 850px;
+}
+.header_blog .header_content h1 {
+  font-size: 48px;
+}
+.header_blog h4 {
+  width: 100% !important;
+  font-size: 24px;
+}
+.header_blog_btn_box {
+  margin-top: -250px !important;
+}
 #cursor,
 #aura {
   position: absolute;
@@ -2075,6 +2088,9 @@ header.partners_header {
   }
   .why_create_block_8 {
     padding: 60px 0 190px 0;
+  }
+  .header_blog {
+    min-height: 800px;
   }
 }
 @media screen and (max-width: 998px) {
@@ -2436,6 +2452,12 @@ header.partners_header {
     margin-top: 0px;
     margin-bottom: 0;
   }
+  .header_blog_btn_box img {
+    margin-left: -50px;
+  }
+  .header_blog_btn_box {
+    margin-top: -230px;
+  }
 }
 @media screen and (max-width: 845px) {
   .partner_biznes_block_3_bottom_img {
@@ -2631,6 +2653,21 @@ header.partners_header {
   }
   .why_create_block_9 {
     margin-top: 0;
+  }
+  .header_blog_btn_box {
+    margin-top: -230px;
+  }
+  .header_blog_btn_box img {
+    transform: scale(0.8);
+  }
+  .header_blog .header_content h4 {
+    width: 100% !important;
+  }
+  .header_blog {
+    min-height: 750px;
+  }
+  .header_blog_btn_box {
+    margin-top: -215px !important;
   }
 }
 @media screen and (max-width: 576px) {
@@ -2897,6 +2934,24 @@ header.partners_header {
   .why_create_block_10 {
     padding: 0 0 80px 0;
     overflow: hidden;
+  }
+  .header_blog .header_content h1 {
+    font-size: 42px;
+  }
+  .header_blog .header_content h4 {
+    font-size: 22px;
+  }
+  .header_blog {
+    min-height: 660px;
+  }
+  .header_blog_btn_box {
+    margin-top: -200px;
+  }
+  .header_blog_btn_box .header_btn_box_text {
+    justify-content: center;
+  }
+  .header_blog_btn_box {
+    margin-top: -186px !important;
   }
 }
 @media screen and (max-width: 505px) {
@@ -3290,6 +3345,21 @@ header.partners_header {
   .why_create_block_8 .block_8_title h2 {
     font-size: 28px;
   }
+  .header_blog .header_content h1 {
+    font-size: 32px;
+  }
+  .header_blog_btn_box {
+    margin-top: -160px;
+  }
+  .header_blog .header_content h1 {
+    font-size: 28px;
+  }
+  .header_blog {
+    min-height: 610px;
+  }
+  .header_blog_btn_box {
+    margin-top: -150px !important;
+  }
 }
 @media screen and (max-width: 360px) {
   .block_8 .block_8_content .slick-current .block_slide {
@@ -3300,5 +3370,9 @@ header.partners_header {
   }
   .why_create_block_2 {
     margin-top: -225px;
+  }
+  .header_blog .header_content h4 {
+    width: 100% !important;
+    font-size: 22px;
   }
 }
