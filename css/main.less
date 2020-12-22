@@ -2839,6 +2839,28 @@ header.partners_header {
 		.blog_block_2_item
 		{
 			margin-bottom: 25px;
+			transition: all 0.3s;
+
+			&:hover .blog_block_2_item_title > h3
+			{
+				color: #fff;
+				transition: all 0.3s;
+			}
+
+			&:hover .blog_block_2_item_meta > a
+			{
+				color: #fff;
+				transition: all 0.3s;
+			}
+
+			&:hover .blog_block_2_item_title a 
+			{
+				color: #fff;
+				transition: all 0.3s;
+				text-decoration: none;
+			}
+
+			
 		}
 
 		.blog_block_2_item_big
@@ -2885,11 +2907,19 @@ header.partners_header {
 			{
 				padding: 40px 50px 0 50px;
 
-				h3
+				a
 				{
-					font-size: 36px;
-					font-weight: 700;
+					color: #000;
+					
+					
+					h3
+					{
+						font-size: 36px;
+						font-weight: 700;
+					}
 				}
+
+				
 			}
 		}
 
@@ -2907,10 +2937,14 @@ header.partners_header {
 			{
 				padding: 20px 0 0 20px;
 
-				h3
+				a
 				{
-					font-size: 16px;
-					font-weight: 700;
+					color: #000;
+					h3
+					{
+						font-size: 16px;
+						font-weight: 700;
+					}
 				}
 			}
 
