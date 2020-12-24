@@ -323,13 +323,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 })
 
-// gsap.to('.but_up', 2,  {
-// 	bottom:"100px",
-// 	repeat:-1, 
-// 	yoyo:true,
-// 	ease: "circ.out"
+gsap.to('.but_up', 2,  {
+	bottom:"100px",
+	repeat:-1, 
+	yoyo:true,
+	ease: "circ.out"
 
-// });
+});
 
 
 

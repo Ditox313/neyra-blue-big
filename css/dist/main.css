@@ -1999,6 +1999,14 @@ header.partners_header {
   flex-direction: column;
   justify-content: flex-end;
 }
+.blog_block_3 .blog_block_3_content .blog_block_3_sidebar .blog_block_3_sidebar_item_recomend:hover h3 {
+  color: #fff;
+  transition: all 0.3s;
+}
+.blog_block_3 .blog_block_3_content .blog_block_3_sidebar .blog_block_3_sidebar_item_recomend:hover p {
+  color: #fff;
+  transition: all 0.3s;
+}
 .blog_block_3 .blog_block_3_content .blog_block_3_sidebar .blog_block_3_sidebar_item_recomend a {
   color: inherit;
 }
@@ -2009,10 +2017,12 @@ header.partners_header {
   font-size: 32px;
   font-weight: 700;
   text-align: right;
+  transition: all 0.3s;
 }
 .blog_block_3 .blog_block_3_content .blog_block_3_sidebar .blog_block_3_sidebar_item_recomend p {
   font-size: 14px;
   text-align: right;
+  transition: all 0.3s;
 }
 .blog_block_4 {
   margin-top: 80px;
@@ -2209,6 +2219,35 @@ header.partners_header {
 }
 .single_post_block_tags .single_post_block_tags_list .single_post_block_tags_item_img_text a:hover::after {
   transform: translateX(0%);
+}
+.single_post_last_news {
+  margin-top: 100px;
+}
+.single_post_last_news .single_post_last_news_title {
+  margin-bottom: 40px;
+}
+.single_post_last_news .single_post_last_news_title h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.single_post_last_news .single_post_last_news_list .single_post_last_news_item {
+  margin-bottom: 40px;
+}
+.single_post_last_news .single_post_last_news_list .single_post_last_news_item a {
+  color: inherit;
+}
+.single_post_last_news .single_post_last_news_list .single_post_last_news_item a:hover {
+  text-decoration: none;
+}
+.single_post_last_news .single_post_last_news_list .single_post_last_news_item a .single_post_last_news_item_img img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.connection {
+  margin-top: 50px !important;
+}
+.block_8_single_post {
+  padding: 60px 0;
 }
 #cursor,
 #aura {
@@ -3891,6 +3930,10 @@ header.partners_header {
   }
   .thumbnail_single .thumbnail_single_item .thumbnail_single_item_meta .thumbnail_single_date {
     font-size: 15px;
+  }
+  .single_post_last_news .single_post_last_news_title h2 {
+    font-size: 30px;
+    font-weight: 700;
   }
 }
 @media screen and (max-width: 360px) {
