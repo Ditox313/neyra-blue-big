@@ -2151,6 +2151,16 @@ header.partners_header {
 .single_post_block_3 {
   margin-top: 80px;
 }
+.single_post_content {
+  margin-top: 80px;
+}
+.single_post_content .single_post_content_item {
+  margin-bottom: 80px;
+}
+.single_post_content .single_post_content_item img {
+  border-radius: 10px;
+  margin-top: 30px;
+}
 #cursor,
 #aura {
   position: absolute;
