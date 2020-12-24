@@ -2110,9 +2110,18 @@ header.partners_header {
   height: 500px;
   border-radius: 10px;
   padding: 40px;
+  transition: all 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+.thumbnail_single .thumbnail_single_item:hover .thumbnail_single_item_title h3 {
+  color: #fff;
+  transition: all 0.3s;
+}
+.thumbnail_single .thumbnail_single_item:hover .thumbnail_single_item_meta {
+  color: #fff;
+  transition: all 0.3s;
 }
 .thumbnail_single .thumbnail_single_item .thumbnail_single_item_title {
   margin-bottom: 20px;
@@ -2120,6 +2129,7 @@ header.partners_header {
 .thumbnail_single .thumbnail_single_item .thumbnail_single_item_title h3 {
   font-size: 48px;
   font-weight: 700;
+  transition: all 0.3s;
 }
 .thumbnail_single .thumbnail_single_item .thumbnail_single_item_meta {
   display: flex;
@@ -2137,6 +2147,9 @@ header.partners_header {
 .thumbnail_single .thumbnail_single_item .thumbnail_single_item_meta a .thumbnail_single_author {
   font-weight: 500;
   font-size: 18px;
+}
+.single_post_block_3 {
+  margin-top: 80px;
 }
 #cursor,
 #aura {
