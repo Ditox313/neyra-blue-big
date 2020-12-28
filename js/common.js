@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-	const body = document.querySelector('body')
+	const body = document.querySelector('body');
 
 	// After update OptimizedHTML5
 	let cx, cy, mouseX, mouseY, posX, posY, clientX, clientY, dx, dy, tiltx, tilty, request, radius, degree
@@ -252,13 +252,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		tilty = dx / cx
 		radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2))
 		degree = radius * 14
-		gsap.to('.header_home h1, .header_home h4', 1, {
-			transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )`
-		})
+		// gsap.to('.header_home h1, .header_home h4', 1, {
+		// 	transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )`
+		// })
 
 	}
 
-	gsap.to('h1', { zoom: .98 })
+	// gsap.to('h1', { zoom: .98 });
 
 
 
@@ -319,17 +319,17 @@ document.addEventListener('DOMContentLoaded', () => {
 	body.addEventListener('mouseout', () => {
 		cursor.classList.add('hidden')
 		follower.classList.add('hidden')
-	})
+	});
 
 })
 
-gsap.to('.but_up', 2,  {
-	bottom:"100px",
-	repeat:-1, 
-	yoyo:true,
-	ease: "circ.out"
+// gsap.to('.but_up', 2,  {
+// 	bottom:"100px",
+// 	repeat:-1, 
+// 	yoyo:true,
+// 	ease: "circ.out"
 
-});
+// });
 
 
 

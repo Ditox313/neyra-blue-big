@@ -429,7 +429,7 @@ header .header_content h4 {
 .block_8 .block_8_content .block_slide .block_8_slider_item {
   z-index: 9999;
   height: 290px;
-  border-radius: 10px;
+  border-radius: 30px;
   position: relative;
   cursor: pointer;
   display: flex;
@@ -446,7 +446,7 @@ header .header_content h4 {
   top: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
   z-index: -1;
 }
