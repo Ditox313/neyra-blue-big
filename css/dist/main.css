@@ -2247,7 +2247,15 @@ header.partners_header {
   margin-top: 50px !important;
 }
 .block_8_single_post {
-  padding: 60px 0;
+  padding: 40px 0;
+}
+.block_8_single_post h2 {
+  font-size: 32px;
+  width: 70%;
+  margin: 0 auto;
+}
+.block_8_single_post a {
+  margin-top: -30px;
 }
 #cursor,
 #aura {
@@ -3487,6 +3495,10 @@ header.partners_header {
     font-size: 32px;
     font-weight: 700;
   }
+  .block_8_single_post .block_8_title h2 {
+    font-size: 28px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 505px) {
   .partner_biznes_block_3 .partner_biznes_block_3_box a {
@@ -3934,6 +3946,10 @@ header.partners_header {
   .single_post_last_news .single_post_last_news_title h2 {
     font-size: 30px;
     font-weight: 700;
+  }
+  .block_8_single_post .block_8_btn a {
+    padding: 7px 17px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 360px) {
